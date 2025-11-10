@@ -1,0 +1,6 @@
+commands\RmCommandTest.class
+commands\EditCommandTest.class
+commands\AddCommandTest.class
+commands\SortCommandTest.class
+commands\PlugCommandTest.class
+commands\TotalCommandTest.class

@@ -1,0 +1,1628 @@
+2025-11-06 17:36:52 INFO  [LogService] Program started.
+2025-11-06 17:36:52 INFO  [LogService] Command registry and manager initialized.
+2025-11-06 17:36:56 INFO  [LogService] User input: -> cls
+2025-11-06 17:37:00 INFO  [LogService] User input: -> help
+2025-11-06 17:39:34 INFO  [LogService] User input: -> version
+2025-11-06 17:45:55 INFO  [LogService] User input: -> load
+2025-11-06 17:45:55 ERROR [LogService] Error: Invalid JSON format: 
+com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: Use JsonReader.setStrictness(Strictness.LENIENT) to accept malformed JSON at line 304 column 3 path $
+See https://github.com/google/gson/blob/main/Troubleshooting.md#malformed-json
+	at com.google.gson.Gson.assertFullConsumption(Gson.java:1472) ~[gson-2.11.0.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1263) ~[gson-2.11.0.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1230) ~[gson-2.11.0.jar:?]
+	at commands.LoadCommand.execute(LoadCommand.java:28) ~[classes/:?]
+	at ui.Main.main(Main.java:55) ~[classes/:?]
+	at org.codehaus.mojo.exec.ExecJavaMojo$1.run(ExecJavaMojo.java:279) ~[?:?]
+	at java.base/java.lang.Thread.run(Thread.java:1623) [?:?]
+Caused by: com.google.gson.stream.MalformedJsonException: Use JsonReader.setStrictness(Strictness.LENIENT) to accept malformed JSON at line 304 column 3 path $
+See https://github.com/google/gson/blob/main/Troubleshooting.md#malformed-json
+	at com.google.gson.stream.JsonReader.syntaxError(JsonReader.java:1754) ~[gson-2.11.0.jar:?]
+	at com.google.gson.stream.JsonReader.checkLenient(JsonReader.java:1550) ~[gson-2.11.0.jar:?]
+	at com.google.gson.stream.JsonReader.doPeek(JsonReader.java:625) ~[gson-2.11.0.jar:?]
+	at com.google.gson.stream.JsonReader.peek(JsonReader.java:507) ~[gson-2.11.0.jar:?]
+	at com.google.gson.Gson.assertFullConsumption(Gson.java:1468) ~[gson-2.11.0.jar:?]
+	... 6 more
+2025-11-06 17:46:08 INFO  [LogService] Error email sent successfully.
+2025-11-06 17:46:48 INFO  [LogService] User input: -> load
+2025-11-06 17:46:48 ERROR [LogService] Error: Invalid JSON format: 
+com.google.gson.JsonSyntaxException: duplicate key: Office
+	at com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter.read(MapTypeAdapterFactory.java:203) ~[gson-2.11.0.jar:?]
+	at com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter.read(MapTypeAdapterFactory.java:154) ~[gson-2.11.0.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1361) ~[gson-2.11.0.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1262) ~[gson-2.11.0.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1230) ~[gson-2.11.0.jar:?]
+	at commands.LoadCommand.execute(LoadCommand.java:28) ~[classes/:?]
+	at ui.Main.main(Main.java:55) ~[classes/:?]
+	at org.codehaus.mojo.exec.ExecJavaMojo$1.run(ExecJavaMojo.java:279) ~[?:?]
+	at java.base/java.lang.Thread.run(Thread.java:1623) [?:?]
+2025-11-06 17:46:59 INFO  [LogService] Error email sent successfully.
+2025-11-06 17:47:18 INFO  [LogService] User input: -> load
+2025-11-06 17:47:18 INFO  [LogService] Data successfully loaded from appliances.json
+2025-11-06 17:47:24 INFO  [LogService] User input: -> ls
+2025-11-06 17:47:36 INFO  [LogService] User input: -> ls -c Office
+2025-11-06 17:47:36 INFO  [LogService] Display list of all categories
+2025-11-06 17:47:51 INFO  [LogService] User input: -> ls -a Office
+2025-11-06 17:47:51 INFO  [LogService] Appliance in Office:
+2025-11-06 17:47:54 INFO  [LogService] User input: -> rm
+2025-11-06 17:48:04 INFO  [LogService] User input: -> rm -a Dickk -c Office
+2025-11-06 17:48:04 INFO  [LogService] Appliance removed: Dickk
+2025-11-06 17:48:54 INFO  [LogService] User input: -> cls; help
+2025-11-06 17:49:00 INFO  [LogService] User input: -> edit
+2025-11-06 17:50:09 INFO  [LogService] User input: -> ls -a Office
+2025-11-06 17:50:09 INFO  [LogService] Appliance in Office:
+2025-11-06 17:51:51 INFO  [LogService] User input: -> add -a Kettle -c Office -p 2400
+2025-11-06 17:51:51 INFO  [LogService] Appliance added: Kettle
+2025-11-06 17:52:52 INFO  [LogService] User input: -> help
+2025-11-06 17:52:55 INFO  [LogService] User input: -> log
+2025-11-06 17:53:06 INFO  [LogService] User input: -> exit
+2025-11-06 17:53:06 INFO  [LogService] Program terminated normally
+
+2025-11-06 20:23:51 INFO  [LogService] Program started.
+2025-11-06 20:23:51 INFO  [LogService] Command registry and manager initialized.
+2025-11-06 20:23:52 INFO  [LogService] User input: -> help
+2025-11-06 20:24:02 INFO  [LogService] User input: -> find -a fdasf
+2025-11-06 20:24:02 WARN  [LogService] Appliance not found: fdasf
+2025-11-08 16:09:22 INFO  [LogService] Category added: Kitchen
+2025-11-08 16:10:09 INFO  [LogService] Category added: Kitchen
+2025-11-08 16:10:09 INFO  [LogService] Category added: Kitchen
+2025-11-08 16:10:30 INFO  [LogService] Category added: Kitchen
+2025-11-08 16:10:30 WARN  [LogService] Attempted to add existing category: Kitchen
+2025-11-08 16:10:30 INFO  [LogService] Category added: Kitchen
+2025-11-08 16:11:50 INFO  [LogService] Category added: Kitchen
+2025-11-08 16:11:50 WARN  [LogService] Attempted to add existing category: Kitchen
+2025-11-08 16:11:50 INFO  [LogService] Category added: Kitchen
+2025-11-08 16:59:21 INFO  [LogService] Category added: Kitchen
+2025-11-08 16:59:21 WARN  [LogService] Attempted to add existing category: Kitchen
+2025-11-08 16:59:21 INFO  [LogService] Category added: Kitchen
+2025-11-08 16:59:30 INFO  [LogService] Category added: Kitchen
+2025-11-08 16:59:30 WARN  [LogService] Attempted to add existing category: Kitchen
+2025-11-08 16:59:30 INFO  [LogService] Category added: Kitchen
+2025-11-08 16:59:42 INFO  [LogService] Category added: Kitchen
+2025-11-08 16:59:42 WARN  [LogService] Attempted to add existing category: Kitchen
+2025-11-08 16:59:42 INFO  [LogService] Category added: Kitchen
+2025-11-08 17:01:25 INFO  [LogService] Category added: Kitchen
+2025-11-08 17:01:25 WARN  [LogService] Attempted to add existing category: Kitchen
+2025-11-08 17:01:25 INFO  [LogService] Category added: Kitchen
+2025-11-08 17:09:15 INFO  [LogService] Category added: Kitchen
+2025-11-08 17:09:15 WARN  [LogService] Attempted to add existing category: Kitchen
+2025-11-08 17:09:15 INFO  [LogService] Category added: Kitchen
+2025-11-09 15:00:21 INFO  [LogService] Program started.
+2025-11-09 15:00:21 INFO  [LogService] Command registry and manager initialized.
+2025-11-09 15:00:24 INFO  [LogService] User input: -> ls
+2025-11-09 15:00:25 INFO  [LogService] User input: -> cls
+2025-11-09 15:00:29 INFO  [LogService] User input: -> version
+2025-11-09 15:31:00 INFO  [LogService] Category added: Kitchen
+2025-11-09 15:31:11 INFO  [LogService] Category added: Kitchen
+2025-11-09 15:58:04 INFO  [LogService] User input: -> add -c Kitchen
+2025-11-09 15:58:04 INFO  [LogService] Category added: Kitchen
+2025-11-09 15:58:20 INFO  [LogService] User input: -> add -a toaster -c Kitchen -p 23
+2025-11-09 15:58:20 INFO  [LogService] Appliance added: toaster
+2025-11-09 15:58:39 INFO  [LogService] User input: -> add -a toaster -c Kitchen -p 24
+2025-11-09 15:58:39 INFO  [LogService] Appliance added: toaster
+2025-11-09 15:58:53 INFO  [LogService] User input: -> ls -a Kitchen
+2025-11-09 15:58:53 INFO  [LogService] Listed appliances in category: Kitchen
+2025-11-09 15:58:58 INFO  [LogService] User input: -> add -a toaster -c Kitchen -p 23
+2025-11-09 15:58:58 INFO  [LogService] Appliance added: toaster
+2025-11-09 15:59:00 INFO  [LogService] User input: -> ls -a Kitchen
+2025-11-09 15:59:00 INFO  [LogService] Listed appliances in category: Kitchen
+2025-11-09 16:10:28 INFO  [LogService] Category added: Kitchen
+2025-11-09 16:10:41 WARN  [LogService] Failed to add appliance, category missing: Kitchen
+2025-11-09 16:11:27 WARN  [LogService] Failed to add appliance, category missing: Kitchen
+2025-11-09 16:11:45 WARN  [LogService] Failed to add appliance, category missing: Kitchen
+2025-11-09 16:11:52 INFO  [LogService] Category added: Kitchen
+2025-11-09 16:11:59 INFO  [LogService] Category added: Kitchen
+2025-11-09 16:11:59 WARN  [LogService] Failed to add appliance, category missing: Kitchen
+2025-11-09 16:14:59 INFO  [LogService] Category added: Kitchen
+2025-11-09 16:14:59 INFO  [LogService] Category added: Kitchen
+2025-11-09 16:14:59 INFO  [LogService] Appliance added: Toaster
+2025-11-09 16:16:18 INFO  [LogService] Category added: Kitchen
+2025-11-09 16:16:18 INFO  [LogService] Category added: Kitchen
+2025-11-09 16:17:51 INFO  [LogService] Category added: Kitchen
+2025-11-09 16:17:51 INFO  [LogService] Category added: Kitchen
+2025-11-09 16:17:51 INFO  [LogService] Appliance added: Toaster
+2025-11-09 16:41:47 INFO  [LogService] Category added: Kitchen
+2025-11-09 16:41:47 INFO  [LogService] Category added: Kitchen
+2025-11-09 16:41:47 INFO  [LogService] Appliance added: Toaster
+2025-11-09 16:45:06 WARN  [LogService] Failed to add appliance, category missing: Kitchen
+2025-11-09 16:46:24 INFO  [LogService] Category added: Kitchen
+2025-11-09 16:46:24 INFO  [LogService] Appliance added: Toaster
+2025-11-09 16:46:52 INFO  [LogService] Category added: Kitchen
+2025-11-09 16:46:52 INFO  [LogService] Category added: Kitchen
+2025-11-09 16:46:52 INFO  [LogService] Appliance added: Toaster
+2025-11-09 17:05:11 INFO  [LogService] Category added: Kitchen
+2025-11-09 17:05:11 WARN  [LogService] Attempted to add existing category: Kitchen
+2025-11-09 17:06:10 INFO  [LogService] Category added: Kitchen
+2025-11-09 17:06:10 WARN  [LogService] Attempted to add existing category: Kitchen
+2025-11-09 17:06:10 INFO  [LogService] Category added: Kitchen
+2025-11-09 17:06:10 INFO  [LogService] Category added: Kitchen
+2025-11-09 17:06:10 INFO  [LogService] Appliance added: Toaster
+2025-11-09 17:07:33 INFO  [LogService] Category added: Kitchen
+2025-11-09 17:07:33 INFO  [LogService] Category added: Kitchen
+2025-11-09 17:07:33 INFO  [LogService] Appliance added: Toaster
+2025-11-09 17:46:11 INFO  [LogService] Category added: Kitchen
+2025-11-09 17:46:12 INFO  [LogService] Category added: Kitchen
+2025-11-09 17:46:12 INFO  [LogService] Appliance added: Toaster
+2025-11-09 17:46:22 INFO  [LogService] Category added: Kitchen
+2025-11-09 17:46:22 INFO  [LogService] Appliance added: Toaster
+2025-11-09 17:46:22 INFO  [LogService] Appliance updated: newToaster      | Kitchen        |   120,0 W | OFF
+2025-11-09 17:50:07 INFO  [LogService] User input: -> ls -c
+2025-11-09 17:50:07 INFO  [LogService] Displayed list of categories
+2025-11-09 17:50:19 INFO  [LogService] User input: -> add -c LivingRoom
+2025-11-09 17:50:19 INFO  [LogService] Category added: LivingRoom
+2025-11-09 17:50:36 INFO  [LogService] User input: -> add -a tv -c Kitchen -p 123
+2025-11-09 17:50:36 INFO  [LogService] Appliance added: tv
+2025-11-09 17:50:39 INFO  [LogService] User input: -> ls -c
+2025-11-09 17:50:39 INFO  [LogService] Displayed list of categories
+2025-11-09 17:50:47 INFO  [LogService] User input: -> ls
+2025-11-09 17:50:52 INFO  [LogService] User input: -> ls -all
+2025-11-09 17:50:52 INFO  [LogService] Displayed list of all appliances
+2025-11-09 17:51:17 INFO  [LogService] User input: -> edit -a tv -c LivingRoom
+2025-11-09 17:51:17 INFO  [LogService] Appliance updated: tv              | LivingRoom     |   123.0 W | OFF
+2025-11-09 17:51:20 INFO  [LogService] User input: -> ls -all
+2025-11-09 17:51:20 INFO  [LogService] Displayed list of all appliances
+2025-11-09 17:57:33 INFO  [LogService] Category added: Kitchen
+2025-11-09 17:57:33 INFO  [LogService] Category added: LivingRoom
+2025-11-09 17:57:33 INFO  [LogService] Appliance added: Toaster
+2025-11-09 17:57:33 INFO  [LogService] Appliance updated: Toaster         | LivingRoom     |   120,0 W | OFF
+2025-11-09 18:02:37 INFO  [LogService] Category added: Kitchen
+2025-11-09 18:02:37 INFO  [LogService] Category added: LivingRoom
+2025-11-09 18:02:37 INFO  [LogService] Appliance added: Toaster
+2025-11-09 18:02:37 INFO  [LogService] Appliance updated: Toaster         | Kitchen        |   100,0 W | OFF
+2025-11-09 18:24:17 INFO  [LogService] Category added: Kitchen
+2025-11-09 18:24:17 INFO  [LogService] Category added: LivingRoom
+2025-11-09 18:24:17 INFO  [LogService] Appliance added: Toaster
+2025-11-09 18:24:55 INFO  [LogService] Category added: Kitchen
+2025-11-09 18:24:55 INFO  [LogService] Category added: LivingRoom
+2025-11-09 18:24:55 INFO  [LogService] Appliance added: Toaster
+2025-11-09 18:24:55 INFO  [LogService] Category renamed from Kitchen to newKitchen
+2025-11-09 18:26:37 INFO  [LogService] Category added: Kitchen
+2025-11-09 18:26:37 INFO  [LogService] Category added: LivingRoom
+2025-11-09 18:26:37 INFO  [LogService] Appliance added: Toaster
+2025-11-09 18:26:37 INFO  [LogService] Category renamed from Kitchen to neKitchen
+2025-11-09 18:27:06 INFO  [LogService] Category added: Kitchen
+2025-11-09 18:27:06 INFO  [LogService] Category added: LivingRoom
+2025-11-09 18:27:06 INFO  [LogService] Appliance added: Toaster
+2025-11-09 18:27:06 INFO  [LogService] Category renamed from Kitchen to newKitchen
+2025-11-09 18:28:17 INFO  [LogService] Category added: Kitchen
+2025-11-09 18:28:17 INFO  [LogService] Category added: LivingRoom
+2025-11-09 18:28:17 INFO  [LogService] Appliance added: Toaster
+2025-11-09 18:28:17 INFO  [LogService] Category renamed from Kitchen to newKitchen
+2025-11-09 18:29:10 INFO  [LogService] Category added: Kitchen
+2025-11-09 18:29:10 INFO  [LogService] Category added: LivingRoom
+2025-11-09 18:29:10 INFO  [LogService] Appliance added: Toaster
+2025-11-09 18:29:10 INFO  [LogService] Category renamed from Kitchen to newKitchen
+2025-11-09 18:30:08 INFO  [LogService] Category added: Kitchen
+2025-11-09 18:30:08 INFO  [LogService] Category added: LivingRoom
+2025-11-09 18:30:08 INFO  [LogService] Appliance added: Toaster
+2025-11-09 18:30:08 INFO  [LogService] Category renamed from Kitchen to newKitchen
+2025-11-09 18:30:34 INFO  [LogService] Category added: Kitchen
+2025-11-09 18:30:34 INFO  [LogService] Category added: LivingRoom
+2025-11-09 18:30:34 INFO  [LogService] Appliance added: Toaster
+2025-11-09 18:30:34 INFO  [LogService] Category renamed from Kitchen to newKitchen
+2025-11-09 18:33:01 INFO  [LogService] Category added: Kitchen
+2025-11-09 18:33:01 INFO  [LogService] Category added: LivingRoom
+2025-11-09 18:33:01 INFO  [LogService] Appliance added: Toaster
+2025-11-09 18:33:01 INFO  [LogService] Category renamed from Kitchen to newKitchen
+2025-11-09 18:33:01 INFO  [LogService] Category added: Kitchen
+2025-11-09 18:33:20 INFO  [LogService] Category added: Kitchen
+2025-11-09 18:33:20 INFO  [LogService] Category added: LivingRoom
+2025-11-09 18:33:20 INFO  [LogService] Appliance added: Toaster
+2025-11-09 18:33:20 INFO  [LogService] Category renamed from Kitchen to newKitchen
+2025-11-09 18:33:39 INFO  [LogService] Category added: Kitchen
+2025-11-09 18:33:39 INFO  [LogService] Category added: LivingRoom
+2025-11-09 18:33:39 INFO  [LogService] Appliance added: Toaster
+2025-11-09 18:33:39 INFO  [LogService] Category renamed from Kitchen to newKitchen
+2025-11-09 18:34:23 INFO  [LogService] Category added: Kitchen
+2025-11-09 18:34:23 INFO  [LogService] Category added: LivingRoom
+2025-11-09 18:34:23 INFO  [LogService] Appliance added: Toaster
+2025-11-09 18:34:23 WARN  [LogService] Attempted to rename missing category:Category does not exist Ktchen
+2025-11-09 18:35:29 INFO  [LogService] Category added: Kitchen
+2025-11-09 18:35:29 INFO  [LogService] Category added: LivingRoom
+2025-11-09 18:35:29 INFO  [LogService] Appliance added: Toaster
+2025-11-09 18:35:29 WARN  [LogService] Attempted to rename missing category:Category does not exist Ktchen
+2025-11-09 18:38:57 INFO  [LogService] Category added: Kitchen
+2025-11-09 18:38:57 INFO  [LogService] Category added: LivingRoom
+2025-11-09 18:38:57 INFO  [LogService] Appliance added: Toaster
+2025-11-09 18:38:57 WARN  [LogService] Attempted to rename missing category:Category does not exist Ktchen
+2025-11-09 18:39:35 INFO  [LogService] Category added: Kitchen
+2025-11-09 18:39:35 INFO  [LogService] Category added: LivingRoom
+2025-11-09 18:39:35 INFO  [LogService] Appliance added: Toaster
+2025-11-09 18:39:35 INFO  [LogService] Category renamed from Kitchen to newKitchen
+2025-11-09 18:40:22 INFO  [LogService] Category added: Kitchen
+2025-11-09 18:40:22 INFO  [LogService] Category added: LivingRoom
+2025-11-09 18:40:22 INFO  [LogService] Appliance added: Toaster
+2025-11-09 18:40:22 INFO  [LogService] Category renamed from Kitchen to newKitchen
+2025-11-09 18:40:31 INFO  [LogService] Category added: Kitchen
+2025-11-09 18:40:31 INFO  [LogService] Category added: LivingRoom
+2025-11-09 18:40:31 INFO  [LogService] Appliance added: Toaster
+2025-11-09 18:40:31 INFO  [LogService] Appliance updated: Toaster         | LivingRoom     |   120,0 W | OFF
+2025-11-09 18:40:31 INFO  [LogService] Category added: Kitchen
+2025-11-09 18:40:31 INFO  [LogService] Category added: LivingRoom
+2025-11-09 18:40:31 INFO  [LogService] Appliance added: Toaster
+2025-11-09 18:40:31 INFO  [LogService] Appliance updated: newToaster      | Kitchen        |   120,0 W | OFF
+2025-11-09 18:40:31 INFO  [LogService] Category added: Kitchen
+2025-11-09 18:40:31 INFO  [LogService] Category added: LivingRoom
+2025-11-09 18:40:31 INFO  [LogService] Appliance added: Toaster
+2025-11-09 18:40:31 INFO  [LogService] Category renamed from Kitchen to newKitchen
+2025-11-09 18:40:31 INFO  [LogService] Category added: Kitchen
+2025-11-09 18:40:31 INFO  [LogService] Category added: LivingRoom
+2025-11-09 18:40:31 INFO  [LogService] Appliance added: Toaster
+2025-11-09 18:40:31 INFO  [LogService] Appliance updated: Toaster         | Kitchen        |   100,0 W | OFF
+2025-11-09 18:44:51 INFO  [LogService] Category added: Kitchen
+2025-11-09 18:44:51 INFO  [LogService] Category added: LivingRoom
+2025-11-09 18:44:51 INFO  [LogService] Appliance added: Toaster
+2025-11-09 18:44:51 INFO  [LogService] Appliance updated: Toaster         | LivingRoom     |   120,0 W | OFF
+2025-11-09 18:44:51 INFO  [LogService] Category added: Kitchen
+2025-11-09 18:44:51 INFO  [LogService] Category added: LivingRoom
+2025-11-09 18:44:51 INFO  [LogService] Appliance added: Toaster
+2025-11-09 18:44:51 INFO  [LogService] Appliance updated: newToaster      | Kitchen        |   120,0 W | OFF
+2025-11-09 18:44:51 INFO  [LogService] Category added: Kitchen
+2025-11-09 18:44:51 INFO  [LogService] Category added: LivingRoom
+2025-11-09 18:44:51 INFO  [LogService] Appliance added: Toaster
+2025-11-09 18:44:51 INFO  [LogService] Category renamed from Kitchen to newKitchen
+2025-11-09 18:44:51 INFO  [LogService] Category added: Kitchen
+2025-11-09 18:44:51 INFO  [LogService] Category added: LivingRoom
+2025-11-09 18:44:51 INFO  [LogService] Appliance added: Toaster
+2025-11-09 18:44:51 INFO  [LogService] Appliance updated: Toaster         | Kitchen        |   100,0 W | OFF
+2025-11-09 18:45:30 INFO  [LogService] Category added: Kitchen
+2025-11-09 18:45:30 INFO  [LogService] Category added: LivingRoom
+2025-11-09 18:45:30 INFO  [LogService] Appliance added: Toaster
+2025-11-09 18:45:30 INFO  [LogService] Appliance updated: Toaster         | Kitchen        |   120,0 W | OFF
+2025-11-09 18:45:30 INFO  [LogService] Category added: Kitchen
+2025-11-09 18:45:30 INFO  [LogService] Category added: LivingRoom
+2025-11-09 18:45:30 INFO  [LogService] Appliance added: Toaster
+2025-11-09 18:45:30 INFO  [LogService] Appliance updated: newToaster      | Kitchen        |   120,0 W | OFF
+2025-11-09 18:45:30 INFO  [LogService] Category added: Kitchen
+2025-11-09 18:45:30 INFO  [LogService] Category added: LivingRoom
+2025-11-09 18:45:30 INFO  [LogService] Appliance added: Toaster
+2025-11-09 18:45:30 INFO  [LogService] Category renamed from Kitchen to newKitchen
+2025-11-09 18:45:30 INFO  [LogService] Category added: Kitchen
+2025-11-09 18:45:30 INFO  [LogService] Category added: LivingRoom
+2025-11-09 18:45:30 INFO  [LogService] Appliance added: Toaster
+2025-11-09 18:45:30 INFO  [LogService] Appliance updated: Toaster         | Kitchen        |   100,0 W | OFF
+2025-11-09 18:46:37 INFO  [LogService] Category added: Kitchen
+2025-11-09 18:46:37 INFO  [LogService] Category added: LivingRoom
+2025-11-09 18:46:37 INFO  [LogService] Appliance added: Toaster
+2025-11-09 18:46:37 INFO  [LogService] Appliance updated: Toaster         | Kitchen        |   120,0 W | OFF
+2025-11-09 18:47:18 INFO  [LogService] Category added: Kitchen
+2025-11-09 18:47:18 INFO  [LogService] Category added: LivingRoom
+2025-11-09 18:47:18 INFO  [LogService] Appliance added: Toaster
+2025-11-09 18:47:18 INFO  [LogService] Appliance updated: Toaster         | LivingRoom     |   120,0 W | OFF
+2025-11-09 18:48:44 INFO  [LogService] User input: -> edit -a ps -c LivingRoom
+2025-11-09 18:48:44 WARN  [LogService] Attempted to edit missing appliance: ps
+2025-11-09 18:48:52 INFO  [LogService] User input: -> edit -a toaster -c LivingRoom
+2025-11-09 18:48:52 INFO  [LogService] Appliance updated: toaster         | LivingRoom     |    23.0 W | OFF
+2025-11-09 18:55:07 INFO  [LogService] Category added: Kitchen
+2025-11-09 18:55:07 INFO  [LogService] Appliance added: Toaster
+2025-11-09 18:56:20 INFO  [LogService] Category added: Kitchen
+2025-11-09 18:56:20 INFO  [LogService] Appliance added: Toaster
+2025-11-09 18:57:24 INFO  [LogService] Category added: Kitchen
+2025-11-09 18:57:24 INFO  [LogService] Appliance added: Toaster
+2025-11-09 18:57:24 INFO  [LogService] Category removed: Kitchen
+2025-11-09 19:00:39 INFO  [LogService] Category added: Kitchen
+2025-11-09 19:00:39 INFO  [LogService] Appliance added: Toaster
+2025-11-09 19:01:05 INFO  [LogService] Category added: Kitchen
+2025-11-09 19:01:05 INFO  [LogService] Appliance added: Toaster
+2025-11-09 19:01:05 INFO  [LogService] Appliance removed: Toaster
+2025-11-09 19:01:49 INFO  [LogService] Category added: Kitchen
+2025-11-09 19:01:49 INFO  [LogService] Appliance added: Toaster
+2025-11-09 19:01:49 INFO  [LogService] Appliance removed: Toaster
+2025-11-09 19:08:59 INFO  [LogService] Category added: Kitchen
+2025-11-09 19:08:59 INFO  [LogService] Appliance added: Toaster
+2025-11-09 19:08:59 INFO  [LogService] Appliance plugged in: Toaster
+2025-11-09 19:09:41 INFO  [LogService] Category added: Kitchen
+2025-11-09 19:09:41 INFO  [LogService] Appliance added: Toaster
+2025-11-09 19:09:41 INFO  [LogService] Appliance unplugged: Toaster
+2025-11-09 19:10:50 INFO  [LogService] Category added: Kitchen
+2025-11-09 19:10:50 INFO  [LogService] Appliance added: Toaster
+2025-11-09 19:10:50 INFO  [LogService] Appliance plugged in: Toaster
+2025-11-09 19:11:04 INFO  [LogService] Category added: Kitchen
+2025-11-09 19:11:04 INFO  [LogService] Appliance added: Toaster
+2025-11-09 19:11:04 INFO  [LogService] Appliance plugged in: Toaster
+2025-11-09 19:12:13 INFO  [LogService] Category added: Kitchen
+2025-11-09 19:12:13 INFO  [LogService] Appliance added: Toaster
+2025-11-09 19:12:13 INFO  [LogService] Appliance plugged in: Toaster
+2025-11-09 19:13:16 INFO  [LogService] Category added: Kitchen
+2025-11-09 19:13:16 INFO  [LogService] Appliance added: Toaster
+2025-11-09 19:13:16 INFO  [LogService] Appliance unplugged: Toaster
+2025-11-09 19:18:20 INFO  [LogService] Category added: Kitchen
+2025-11-09 19:18:20 INFO  [LogService] Appliance added: Toaster
+2025-11-09 19:18:20 INFO  [LogService] Appliance unplugged: Toaster
+2025-11-09 19:18:41 INFO  [LogService] Category added: Kitchen
+2025-11-09 19:18:41 INFO  [LogService] Appliance added: Toaster
+2025-11-09 19:18:41 INFO  [LogService] Appliance unplugged: Toaster
+2025-11-09 19:40:02 INFO  [LogService] Category added: Kitchen
+2025-11-09 19:40:02 INFO  [LogService] Appliance added: Microwave
+2025-11-09 19:40:02 INFO  [LogService] Appliance added: Toaster
+2025-11-09 19:40:02 INFO  [LogService] Appliance added: Cooker
+2025-11-09 19:40:02 INFO  [LogService] Appliances sorted by power.
+2025-11-09 19:41:01 INFO  [LogService] Category added: Kitchen
+2025-11-09 19:41:01 INFO  [LogService] Appliance added: Microwave
+2025-11-09 19:41:01 INFO  [LogService] Appliance added: Toaster
+2025-11-09 19:41:01 INFO  [LogService] Appliance added: Cooker
+2025-11-09 19:41:01 INFO  [LogService] Appliances sorted by power.
+2025-11-09 19:41:12 INFO  [LogService] Category added: Kitchen
+2025-11-09 19:41:12 INFO  [LogService] Appliance added: Microwave
+2025-11-09 19:41:12 INFO  [LogService] Appliance added: Toaster
+2025-11-09 19:41:12 INFO  [LogService] Appliance added: Cooker
+2025-11-09 19:41:12 INFO  [LogService] Appliances sorted by power.
+2025-11-09 19:42:23 INFO  [LogService] Category added: Kitchen
+2025-11-09 19:42:23 INFO  [LogService] Appliance added: Microwave
+2025-11-09 19:42:23 INFO  [LogService] Appliance added: Toaster
+2025-11-09 19:42:23 INFO  [LogService] Appliance added: Cooker
+2025-11-09 19:42:23 INFO  [LogService] Appliances sorted by power.
+2025-11-09 19:43:11 INFO  [LogService] Category added: Kitchen
+2025-11-09 19:43:11 INFO  [LogService] Appliance added: Microwave
+2025-11-09 19:43:11 INFO  [LogService] Appliance added: Toaster
+2025-11-09 19:43:11 INFO  [LogService] Appliance added: Cooker
+2025-11-09 19:43:11 INFO  [LogService] Appliances sorted by power.
+2025-11-09 19:45:04 INFO  [LogService] Category added: Kitchen
+2025-11-09 19:45:04 INFO  [LogService] Appliance added: Microwave
+2025-11-09 19:45:04 INFO  [LogService] Appliance added: Toaster
+2025-11-09 19:45:04 INFO  [LogService] Appliance added: Cooker
+2025-11-09 19:45:04 INFO  [LogService] Appliances sorted by power.
+2025-11-09 19:46:06 INFO  [LogService] Category added: Kitchen
+2025-11-09 19:46:06 INFO  [LogService] Appliance added: Microwave
+2025-11-09 19:46:06 INFO  [LogService] Appliance added: Toaster
+2025-11-09 19:46:06 INFO  [LogService] Appliance added: Cooker
+2025-11-09 19:46:07 INFO  [LogService] Appliances sorted by power.
+2025-11-09 19:46:27 INFO  [LogService] Category added: Kitchen
+2025-11-09 19:46:27 INFO  [LogService] Appliance added: Microwave
+2025-11-09 19:46:27 INFO  [LogService] Appliance added: Toaster
+2025-11-09 19:46:27 INFO  [LogService] Appliance added: Cooker
+2025-11-09 19:46:27 INFO  [LogService] Appliances sorted by power.
+2025-11-09 19:58:52 INFO  [LogService] Category added: Kitchen
+2025-11-09 19:58:52 INFO  [LogService] Appliance added: Microwave
+2025-11-09 19:58:52 INFO  [LogService] Appliance added: Toaster
+2025-11-09 19:58:52 INFO  [LogService] Appliance added: Cooker
+2025-11-09 19:59:08 INFO  [LogService] Category added: Kitchen
+2025-11-09 19:59:08 INFO  [LogService] Appliance added: Microwave
+2025-11-09 19:59:08 INFO  [LogService] Appliance added: Toaster
+2025-11-09 19:59:08 INFO  [LogService] Appliance added: Cooker
+2025-11-09 20:05:36 INFO  [LogService] Category added: Kitchen
+2025-11-09 20:05:36 INFO  [LogService] Appliance added: Microwave
+2025-11-09 20:05:36 INFO  [LogService] Appliance added: Toaster
+2025-11-09 20:05:36 INFO  [LogService] Appliance added: Cooker
+2025-11-09 20:09:13 INFO  [LogService] Category added: Kitchen
+2025-11-09 20:09:13 INFO  [LogService] Appliance added: Microwave
+2025-11-09 20:09:13 INFO  [LogService] Appliance added: Toaster
+2025-11-09 20:09:13 INFO  [LogService] Appliance added: Cooker
+2025-11-09 20:09:23 INFO  [LogService] Category added: Kitchen
+2025-11-09 20:09:23 INFO  [LogService] Appliance added: Microwave
+2025-11-09 20:09:23 INFO  [LogService] Appliance added: Toaster
+2025-11-09 20:09:23 INFO  [LogService] Appliance added: Cooker
+2025-11-09 20:09:36 INFO  [LogService] Category added: Kitchen
+2025-11-09 20:09:36 INFO  [LogService] Appliance added: Microwave
+2025-11-09 20:09:36 INFO  [LogService] Appliance added: Toaster
+2025-11-09 20:09:36 INFO  [LogService] Appliance added: Cooker
+2025-11-09 20:35:35 INFO  [LogService] Category added: Kitchen
+2025-11-09 20:35:35 INFO  [LogService] Appliance added: Microwave
+2025-11-09 20:35:35 INFO  [LogService] Appliance added: Toaster
+2025-11-09 20:35:35 INFO  [LogService] Appliance added: Cooker
+2025-11-09 20:35:58 INFO  [LogService] Category added: Kitchen
+2025-11-09 20:35:58 INFO  [LogService] Appliance added: Microwave
+2025-11-09 20:35:58 INFO  [LogService] Appliance added: Toaster
+2025-11-09 20:35:58 INFO  [LogService] Appliance added: Cooker
+2025-11-09 20:40:06 INFO  [LogService] Program started.
+2025-11-09 20:40:06 INFO  [LogService] Command registry and manager initialized.
+2025-11-09 20:40:17 INFO  [LogService] User input: -> help
+2025-11-09 20:43:56 INFO  [LogService] Category added: Kitchen
+2025-11-09 20:43:56 INFO  [LogService] Category added: Kitchen
+2025-11-09 20:43:56 INFO  [LogService] Appliance added: Toaster
+2025-11-09 20:43:56 INFO  [LogService] Category added: Kitchen
+2025-11-09 20:43:56 INFO  [LogService] Appliance added: Microwave
+2025-11-09 20:43:56 INFO  [LogService] Appliance added: Toaster
+2025-11-09 20:43:56 INFO  [LogService] Appliance added: Cooker
+2025-11-09 20:43:56 INFO  [LogService] Category added: Kitchen
+2025-11-09 20:43:56 INFO  [LogService] Category added: LivingRoom
+2025-11-09 20:43:56 INFO  [LogService] Appliance added: Toaster
+2025-11-09 20:43:56 INFO  [LogService] Appliance updated: Toaster         | LivingRoom     |   120,0 W | OFF
+2025-11-09 20:43:56 INFO  [LogService] Category added: Kitchen
+2025-11-09 20:43:56 INFO  [LogService] Category added: LivingRoom
+2025-11-09 20:43:56 INFO  [LogService] Appliance added: Toaster
+2025-11-09 20:43:56 INFO  [LogService] Appliance updated: newToaster      | Kitchen        |   120,0 W | OFF
+2025-11-09 20:43:56 INFO  [LogService] Category added: Kitchen
+2025-11-09 20:43:56 INFO  [LogService] Category added: LivingRoom
+2025-11-09 20:43:56 INFO  [LogService] Appliance added: Toaster
+2025-11-09 20:43:56 INFO  [LogService] Category renamed from Kitchen to newKitchen
+2025-11-09 20:43:56 INFO  [LogService] Category added: Kitchen
+2025-11-09 20:43:56 INFO  [LogService] Category added: LivingRoom
+2025-11-09 20:43:56 INFO  [LogService] Appliance added: Toaster
+2025-11-09 20:43:56 INFO  [LogService] Appliance updated: Toaster         | Kitchen        |   100,0 W | OFF
+2025-11-09 20:43:56 INFO  [LogService] Category added: Kitchen
+2025-11-09 20:43:56 INFO  [LogService] Appliance added: Microwave
+2025-11-09 20:43:56 INFO  [LogService] Appliance added: Toaster
+2025-11-09 20:43:56 INFO  [LogService] Appliance added: Cooker
+2025-11-09 20:43:56 INFO  [LogService] Appliances sorted by power.
+2025-11-09 20:43:56 INFO  [LogService] Category added: Kitchen
+2025-11-09 20:43:56 INFO  [LogService] Appliance added: Toaster
+2025-11-09 20:43:56 INFO  [LogService] Appliance plugged in: Toaster
+2025-11-09 20:43:56 INFO  [LogService] Category added: Kitchen
+2025-11-09 20:43:56 INFO  [LogService] Appliance added: Toaster
+2025-11-09 20:43:56 INFO  [LogService] Appliance unplugged: Toaster
+2025-11-09 20:43:56 INFO  [LogService] Category added: Kitchen
+2025-11-09 20:43:56 INFO  [LogService] Appliance added: Toaster
+2025-11-09 20:43:56 INFO  [LogService] Category removed: Kitchen
+2025-11-09 20:43:56 INFO  [LogService] Category added: Kitchen
+2025-11-09 20:43:56 INFO  [LogService] Appliance added: Toaster
+2025-11-09 20:43:56 INFO  [LogService] Appliance removed: Toaster
+2025-11-09 20:44:15 INFO  [LogService] Category added: Kitchen
+2025-11-09 20:44:15 INFO  [LogService] Category added: Kitchen
+2025-11-09 20:44:15 INFO  [LogService] Appliance added: Toaster
+2025-11-09 20:44:15 INFO  [LogService] Category added: Kitchen
+2025-11-09 20:44:15 INFO  [LogService] Appliance added: Microwave
+2025-11-09 20:44:15 INFO  [LogService] Appliance added: Toaster
+2025-11-09 20:44:15 INFO  [LogService] Appliance added: Cooker
+2025-11-09 20:44:15 INFO  [LogService] Category added: Kitchen
+2025-11-09 20:44:15 INFO  [LogService] Category added: LivingRoom
+2025-11-09 20:44:15 INFO  [LogService] Appliance added: Toaster
+2025-11-09 20:44:15 INFO  [LogService] Appliance updated: Toaster         | LivingRoom     |   120,0 W | OFF
+2025-11-09 20:44:15 INFO  [LogService] Category added: Kitchen
+2025-11-09 20:44:15 INFO  [LogService] Category added: LivingRoom
+2025-11-09 20:44:15 INFO  [LogService] Appliance added: Toaster
+2025-11-09 20:44:15 INFO  [LogService] Appliance updated: newToaster      | Kitchen        |   120,0 W | OFF
+2025-11-09 20:44:15 INFO  [LogService] Category added: Kitchen
+2025-11-09 20:44:15 INFO  [LogService] Category added: LivingRoom
+2025-11-09 20:44:15 INFO  [LogService] Appliance added: Toaster
+2025-11-09 20:44:15 INFO  [LogService] Category renamed from Kitchen to newKitchen
+2025-11-09 20:44:15 INFO  [LogService] Category added: Kitchen
+2025-11-09 20:44:15 INFO  [LogService] Category added: LivingRoom
+2025-11-09 20:44:15 INFO  [LogService] Appliance added: Toaster
+2025-11-09 20:44:15 INFO  [LogService] Appliance updated: Toaster         | Kitchen        |   100,0 W | OFF
+2025-11-09 20:44:15 INFO  [LogService] Category added: Kitchen
+2025-11-09 20:44:15 INFO  [LogService] Appliance added: Microwave
+2025-11-09 20:44:15 INFO  [LogService] Appliance added: Toaster
+2025-11-09 20:44:15 INFO  [LogService] Appliance added: Cooker
+2025-11-09 20:44:15 INFO  [LogService] Appliances sorted by power.
+2025-11-09 20:44:15 INFO  [LogService] Category added: Kitchen
+2025-11-09 20:44:15 INFO  [LogService] Appliance added: Toaster
+2025-11-09 20:44:15 INFO  [LogService] Appliance plugged in: Toaster
+2025-11-09 20:44:15 INFO  [LogService] Category added: Kitchen
+2025-11-09 20:44:15 INFO  [LogService] Appliance added: Toaster
+2025-11-09 20:44:15 INFO  [LogService] Appliance unplugged: Toaster
+2025-11-09 20:44:15 INFO  [LogService] Category added: Kitchen
+2025-11-09 20:44:15 INFO  [LogService] Appliance added: Toaster
+2025-11-09 20:44:15 INFO  [LogService] Category removed: Kitchen
+2025-11-09 20:44:15 INFO  [LogService] Category added: Kitchen
+2025-11-09 20:44:15 INFO  [LogService] Appliance added: Toaster
+2025-11-09 20:44:15 INFO  [LogService] Appliance removed: Toaster
+2025-11-09 21:27:52 INFO  [LogService] Category added: Kitchen
+2025-11-09 21:27:52 INFO  [LogService] Category added: Kitchen
+2025-11-09 21:27:52 INFO  [LogService] Appliance added: Toaster
+2025-11-09 21:27:52 INFO  [LogService] Category added: Kitchen
+2025-11-09 21:27:52 INFO  [LogService] Appliance added: Microwave
+2025-11-09 21:27:52 INFO  [LogService] Appliance added: Toaster
+2025-11-09 21:27:52 INFO  [LogService] Appliance added: Cooker
+2025-11-09 21:27:52 INFO  [LogService] Category added: Kitchen
+2025-11-09 21:27:52 INFO  [LogService] Category added: LivingRoom
+2025-11-09 21:27:52 INFO  [LogService] Appliance added: Toaster
+2025-11-09 21:27:52 INFO  [LogService] Appliance updated: Toaster         | LivingRoom     |   120,0 W | OFF
+2025-11-09 21:27:52 INFO  [LogService] Category added: Kitchen
+2025-11-09 21:27:52 INFO  [LogService] Category added: LivingRoom
+2025-11-09 21:27:52 INFO  [LogService] Appliance added: Toaster
+2025-11-09 21:27:53 INFO  [LogService] Appliance updated: newToaster      | Kitchen        |   120,0 W | OFF
+2025-11-09 21:27:53 INFO  [LogService] Category added: Kitchen
+2025-11-09 21:27:53 INFO  [LogService] Category added: LivingRoom
+2025-11-09 21:27:53 INFO  [LogService] Appliance added: Toaster
+2025-11-09 21:27:53 INFO  [LogService] Category renamed from Kitchen to newKitchen
+2025-11-09 21:27:53 INFO  [LogService] Category added: Kitchen
+2025-11-09 21:27:53 INFO  [LogService] Category added: LivingRoom
+2025-11-09 21:27:53 INFO  [LogService] Appliance added: Toaster
+2025-11-09 21:27:53 INFO  [LogService] Appliance updated: Toaster         | Kitchen        |   100,0 W | OFF
+2025-11-09 21:27:53 INFO  [LogService] Category added: Kitchen
+2025-11-09 21:27:53 INFO  [LogService] Appliance added: Microwave
+2025-11-09 21:27:53 INFO  [LogService] Appliance added: Toaster
+2025-11-09 21:27:53 INFO  [LogService] Appliance added: Cooker
+2025-11-09 21:27:53 INFO  [LogService] Appliances sorted by power.
+2025-11-09 21:27:53 INFO  [LogService] Category added: Kitchen
+2025-11-09 21:27:53 INFO  [LogService] Appliance added: Toaster
+2025-11-09 21:27:53 INFO  [LogService] Appliance plugged in: Toaster
+2025-11-09 21:27:53 INFO  [LogService] Category added: Kitchen
+2025-11-09 21:27:53 INFO  [LogService] Appliance added: Toaster
+2025-11-09 21:27:53 INFO  [LogService] Appliance unplugged: Toaster
+2025-11-09 21:27:53 INFO  [LogService] Category added: Kitchen
+2025-11-09 21:27:53 INFO  [LogService] Appliance added: Toaster
+2025-11-09 21:27:53 INFO  [LogService] Category removed: Kitchen
+2025-11-09 21:27:53 INFO  [LogService] Category added: Kitchen
+2025-11-09 21:27:53 INFO  [LogService] Appliance added: Toaster
+2025-11-09 21:27:53 INFO  [LogService] Appliance removed: Toaster
+2025-11-09 21:57:59 INFO  [LogService] Program started.
+2025-11-09 21:57:59 INFO  [LogService] Command registry and manager initialized.
+2025-11-09 21:58:16 INFO  [LogService] Program started.
+2025-11-09 21:58:16 INFO  [LogService] Command registry and manager initialized.
+2025-11-09 21:59:12 INFO  [LogService] User input: -> help; add -c Room
+2025-11-09 21:59:12 INFO  [LogService] Category added: Room
+2025-11-09 22:00:11 INFO  [LogService] Program started.
+2025-11-09 22:00:11 INFO  [LogService] Command registry and manager initialized.
+2025-11-09 22:00:41 INFO  [LogService] User input: -> help; add -c Room; add
+2025-11-09 22:00:41 INFO  [LogService] Category added: Room
+2025-11-09 22:02:28 INFO  [LogService] Program started.
+2025-11-09 22:02:28 INFO  [LogService] Command registry and manager initialized.
+2025-11-09 22:02:31 INFO  [LogService] User input: -> heds
+2025-11-09 22:02:31 WARN  [LogService] Invalid command: heds
+2025-11-09 22:04:23 INFO  [LogService] Program started.
+2025-11-09 22:04:23 INFO  [LogService] Command registry and manager initialized.
+2025-11-09 22:04:26 INFO  [LogService] User input: -> help
+2025-11-09 22:04:35 INFO  [LogService] User input: -> add -c Room
+2025-11-09 22:04:35 INFO  [LogService] Category added: Room
+2025-11-09 22:04:37 INFO  [LogService] User input: -> ls -all
+2025-11-09 22:04:37 WARN  [LogService] No appliances available to list.
+2025-11-09 22:04:50 INFO  [LogService] User input: -> add -a tv -c Room
+2025-11-09 22:05:08 INFO  [LogService] User input: -> add -a tv -c Room -p 234
+2025-11-09 22:05:08 INFO  [LogService] Appliance added: tv
+2025-11-09 22:05:10 INFO  [LogService] User input: -> ls -all
+2025-11-09 22:05:10 INFO  [LogService] Displayed list of all appliances
+2025-11-09 22:10:07 INFO  [LogService] User input: -> exit
+2025-11-09 22:10:07 INFO  [LogService] Program exited by user.
+2025-11-09 22:10:48 INFO  [LogService] Category added: Kitchen
+2025-11-09 22:10:48 INFO  [LogService] Category added: Kitchen
+2025-11-09 22:10:48 INFO  [LogService] Appliance added: Toaster
+2025-11-09 22:10:48 INFO  [LogService] Category added: Kitchen
+2025-11-09 22:10:48 INFO  [LogService] Category added: LivingRoom
+2025-11-09 22:10:48 INFO  [LogService] Appliance added: Toaster
+2025-11-09 22:10:48 INFO  [LogService] Appliance updated: Toaster         | LivingRoom     |   120,0 W | OFF
+2025-11-09 22:10:48 INFO  [LogService] Category added: Kitchen
+2025-11-09 22:10:48 INFO  [LogService] Category added: LivingRoom
+2025-11-09 22:10:48 INFO  [LogService] Appliance added: Toaster
+2025-11-09 22:10:48 INFO  [LogService] Appliance updated: newToaster      | Kitchen        |   120,0 W | OFF
+2025-11-09 22:10:48 INFO  [LogService] Category added: Kitchen
+2025-11-09 22:10:48 INFO  [LogService] Category added: LivingRoom
+2025-11-09 22:10:48 INFO  [LogService] Appliance added: Toaster
+2025-11-09 22:10:48 INFO  [LogService] Category renamed from Kitchen to newKitchen
+2025-11-09 22:10:48 INFO  [LogService] Category added: Kitchen
+2025-11-09 22:10:48 INFO  [LogService] Category added: LivingRoom
+2025-11-09 22:10:48 INFO  [LogService] Appliance added: Toaster
+2025-11-09 22:10:48 INFO  [LogService] Appliance updated: Toaster         | Kitchen        |   100,0 W | OFF
+2025-11-09 22:10:48 INFO  [LogService] Category added: Kitchen
+2025-11-09 22:10:48 INFO  [LogService] Appliance added: Toaster
+2025-11-09 22:10:48 INFO  [LogService] Appliance plugged in: Toaster
+2025-11-09 22:10:48 INFO  [LogService] Category added: Kitchen
+2025-11-09 22:10:48 INFO  [LogService] Appliance added: Toaster
+2025-11-09 22:10:48 INFO  [LogService] Appliance unplugged: Toaster
+2025-11-09 22:10:48 INFO  [LogService] Category added: Kitchen
+2025-11-09 22:10:48 INFO  [LogService] Appliance added: Toaster
+2025-11-09 22:10:48 INFO  [LogService] Category removed: Kitchen
+2025-11-09 22:10:48 INFO  [LogService] Category added: Kitchen
+2025-11-09 22:10:48 INFO  [LogService] Appliance added: Toaster
+2025-11-09 22:10:48 INFO  [LogService] Appliance removed: Toaster
+2025-11-09 22:10:48 INFO  [LogService] Category added: Kitchen
+2025-11-09 22:10:48 INFO  [LogService] Appliance added: Microwave
+2025-11-09 22:10:48 INFO  [LogService] Appliance added: Toaster
+2025-11-09 22:10:48 INFO  [LogService] Appliance added: Cooker
+2025-11-09 22:10:48 INFO  [LogService] Appliances sorted by power.
+2025-11-09 22:10:48 INFO  [LogService] Category added: Kitchen
+2025-11-09 22:10:48 INFO  [LogService] Appliance added: Microwave
+2025-11-09 22:10:48 INFO  [LogService] Appliance added: Toaster
+2025-11-09 22:10:48 INFO  [LogService] Appliance added: Cooker
+2025-11-09 22:12:06 INFO  [LogService] Program started.
+2025-11-09 22:12:06 INFO  [LogService] Command registry and manager initialized.
+2025-11-09 22:12:08 INFO  [LogService] User input: -> cls
+2025-11-09 22:12:10 INFO  [LogService] User input: -> help
+2025-11-09 22:12:27 INFO  [LogService] User input: -> add -c       room
+2025-11-09 22:12:27 INFO  [LogService] Category added: room
+2025-11-09 22:12:36 INFO  [LogService] User input: -> add - c room1
+2025-11-09 22:12:48 INFO  [LogService] User input: -> cls
+2025-11-09 22:33:57 INFO  [LogService] Program started.
+2025-11-09 22:33:57 INFO  [LogService] Command registry and manager initialized.
+2025-11-09 22:34:03 INFO  [LogService] User input: -> exit
+2025-11-09 22:34:03 INFO  [LogService] Program exited by user.
+2025-11-09 22:34:56 INFO  [LogService] User input: -> help
+2025-11-09 22:35:01 INFO  [LogService] User input: -> find
+2025-11-09 22:40:02 INFO  [LogService] User input: -> find -r 34.2 -r 50
+2025-11-09 22:40:32 INFO  [LogService] Program started.
+2025-11-09 22:40:32 INFO  [LogService] Command registry and manager initialized.
+2025-11-09 22:40:45 INFO  [LogService] User input: -> find -r 34.34 -r 50
+2025-11-09 22:41:06 INFO  [LogService] Program started.
+2025-11-09 22:41:06 INFO  [LogService] Command registry and manager initialized.
+2025-11-09 22:41:14 INFO  [LogService] User input: -> find -r 34.34 -r 50
+2025-11-09 22:42:00 INFO  [LogService] Program started.
+2025-11-09 22:42:00 INFO  [LogService] Command registry and manager initialized.
+2025-11-09 22:42:09 INFO  [LogService] User input: -> find -r 34.34 -r 43
+2025-11-09 22:42:09 ERROR [LogService] Error: Power values must be integers. 
+java.lang.NumberFormatException: For input string: "34.34"
+	at java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:67) ~[?:?]
+	at java.base/java.lang.Integer.parseInt(Integer.java:565) ~[?:?]
+	at java.base/java.lang.Integer.parseInt(Integer.java:662) ~[?:?]
+	at commands.FindCommand.execute(FindCommand.java:39) [classes/:?]
+	at ui.Main.main(Main.java:50) [classes/:?]
+2025-11-09 22:42:20 INFO  [LogService] Error email sent successfully.
+2025-11-09 23:06:15 INFO  [LogService] Program started.
+2025-11-09 23:06:15 INFO  [LogService] Command registry and manager initialized.
+2025-11-09 23:06:18 INFO  [LogService] User input: -> load
+2025-11-09 23:06:18 INFO  [LogService] Categories replaced from external source.
+2025-11-09 23:06:18 INFO  [LogService] Data loaded from appliances.json
+2025-11-09 23:06:21 INFO  [LogService] User input: -> ls -all
+2025-11-09 23:06:21 INFO  [LogService] Displayed list of all appliances
+2025-11-09 23:10:11 INFO  [LogService] User input: -> load
+2025-11-09 23:10:11 INFO  [LogService] Categories replaced from external source.
+2025-11-09 23:10:11 INFO  [LogService] Data loaded from appliances.json
+2025-11-09 23:10:13 INFO  [LogService] User input: -> ls -all
+2025-11-09 23:10:13 INFO  [LogService] Displayed list of all appliances
+2025-11-09 23:11:13 INFO  [LogService] Program started.
+2025-11-09 23:11:13 INFO  [LogService] Command registry and manager initialized.
+2025-11-09 23:11:19 INFO  [LogService] User input: -> lload; ls -all
+2025-11-09 23:11:19 WARN  [LogService] Invalid command: lload
+2025-11-09 23:11:19 WARN  [LogService] No appliances available to list.
+2025-11-09 23:11:28 INFO  [LogService] User input: -> load; ls -all
+2025-11-09 23:11:28 INFO  [LogService] Categories replaced from external source.
+2025-11-09 23:11:28 INFO  [LogService] Data loaded from appliances.json
+2025-11-09 23:11:28 INFO  [LogService] Displayed list of all appliances
+2025-11-09 23:13:08 INFO  [LogService] User input: -> ls -c
+2025-11-09 23:13:08 INFO  [LogService] Displayed list of categories
+2025-11-09 23:13:16 INFO  [LogService] User input: -> ls -c
+2025-11-09 23:13:16 INFO  [LogService] Displayed list of categories
+2025-11-10 00:16:12 INFO  [LogService] User input: -> cls; help
+2025-11-10 00:23:51 INFO  [LogService] User input: -> add
+2025-11-10 00:23:54 INFO  [LogService] User input: -> rm
+2025-11-10 00:23:57 INFO  [LogService] User input: -> ls
+2025-11-10 00:24:00 INFO  [LogService] User input: -> plug
+2025-11-10 00:24:04 INFO  [LogService] User input: -> find
+2025-11-10 00:29:56 INFO  [LogService] User input: -> edit
+2025-11-10 00:42:07 INFO  [LogService] User input: -> help
+2025-11-10 05:08:58 INFO  [LogService] User input: -> exit
+2025-11-10 05:08:58 INFO  [LogService] Program exited by user.
+2025-11-10 05:09:09 INFO  [LogService] Category added: Kitchen
+2025-11-10 05:09:09 INFO  [LogService] Category added: Kitchen
+2025-11-10 05:09:09 INFO  [LogService] Appliance added: Toaster
+2025-11-10 05:09:09 INFO  [LogService] Category added: Kitchen
+2025-11-10 05:09:09 INFO  [LogService] Category added: LivingRoom
+2025-11-10 05:09:09 INFO  [LogService] Appliance added: Toaster
+2025-11-10 05:09:09 INFO  [LogService] Appliance updated: Toaster         | LivingRoom     |   120,0 W | OFF |
+2025-11-10 05:09:09 INFO  [LogService] Category added: Kitchen
+2025-11-10 05:09:09 INFO  [LogService] Category added: LivingRoom
+2025-11-10 05:09:09 INFO  [LogService] Appliance added: Toaster
+2025-11-10 05:09:09 INFO  [LogService] Appliance updated: newToaster      | Kitchen        |   120,0 W | OFF |
+2025-11-10 05:09:09 INFO  [LogService] Category added: Kitchen
+2025-11-10 05:09:09 INFO  [LogService] Category added: LivingRoom
+2025-11-10 05:09:09 INFO  [LogService] Appliance added: Toaster
+2025-11-10 05:09:09 INFO  [LogService] Category renamed from Kitchen to newKitchen
+2025-11-10 05:09:09 INFO  [LogService] Category added: Kitchen
+2025-11-10 05:09:09 INFO  [LogService] Category added: LivingRoom
+2025-11-10 05:09:09 INFO  [LogService] Appliance added: Toaster
+2025-11-10 05:09:09 INFO  [LogService] Appliance updated: Toaster         | Kitchen        |   100,0 W | OFF |
+2025-11-10 05:09:09 INFO  [LogService] Category added: Kitchen
+2025-11-10 05:09:09 INFO  [LogService] Appliance added: Toaster
+2025-11-10 05:09:09 INFO  [LogService] Appliance plugged in: Toaster
+2025-11-10 05:09:09 INFO  [LogService] Category added: Kitchen
+2025-11-10 05:09:09 INFO  [LogService] Appliance added: Toaster
+2025-11-10 05:09:09 INFO  [LogService] Appliance unplugged: Toaster
+2025-11-10 05:09:09 INFO  [LogService] Category added: Kitchen
+2025-11-10 05:09:09 INFO  [LogService] Appliance added: Toaster
+2025-11-10 05:09:09 INFO  [LogService] Category removed: Kitchen
+2025-11-10 05:09:09 INFO  [LogService] Category added: Kitchen
+2025-11-10 05:09:09 INFO  [LogService] Appliance added: Toaster
+2025-11-10 05:09:09 INFO  [LogService] Appliance removed: Toaster
+2025-11-10 05:09:09 INFO  [LogService] Category added: Kitchen
+2025-11-10 05:09:09 INFO  [LogService] Appliance added: Microwave
+2025-11-10 05:09:09 INFO  [LogService] Appliance added: Toaster
+2025-11-10 05:09:09 INFO  [LogService] Appliance added: Cooker
+2025-11-10 05:09:09 INFO  [LogService] Appliances sorted by power.
+2025-11-10 05:09:09 INFO  [LogService] Category added: Kitchen
+2025-11-10 05:09:09 INFO  [LogService] Appliance added: Microwave
+2025-11-10 05:09:09 INFO  [LogService] Appliance added: Toaster
+2025-11-10 05:09:09 INFO  [LogService] Appliance added: Cooker
+2025-11-10 05:09:18 INFO  [LogService] Program started.
+2025-11-10 05:09:18 INFO  [LogService] Command registry and manager initialized.
+2025-11-10 05:09:24 INFO  [LogService] User input: -> cls
+2025-11-10 05:09:27 INFO  [LogService] User input: -> help
+2025-11-10 05:10:51 INFO  [LogService] User input: -> version
+2025-11-10 05:10:55 INFO  [LogService] User input: -> add
+2025-11-10 05:11:00 INFO  [LogService] User input: -> load
+2025-11-10 05:11:00 INFO  [LogService] Categories replaced from external source.
+2025-11-10 05:11:00 INFO  [LogService] Data loaded from appliances.json
+2025-11-10 05:11:28 INFO  [LogService] Category added: Kitchen
+2025-11-10 05:11:28 INFO  [LogService] Category added: Kitchen
+2025-11-10 05:11:28 INFO  [LogService] Appliance added: Toaster
+2025-11-10 05:11:28 INFO  [LogService] Category added: Kitchen
+2025-11-10 05:11:28 INFO  [LogService] Appliance added: Microwave
+2025-11-10 05:11:28 INFO  [LogService] Appliance added: Toaster
+2025-11-10 05:11:28 INFO  [LogService] Appliance added: Cooker
+2025-11-10 05:11:28 INFO  [LogService] Category added: Kitchen
+2025-11-10 05:11:28 INFO  [LogService] Category added: LivingRoom
+2025-11-10 05:11:28 INFO  [LogService] Appliance added: Toaster
+2025-11-10 05:11:28 INFO  [LogService] Appliance updated: Toaster         | LivingRoom     |   120,0 W | OFF |
+2025-11-10 05:11:28 INFO  [LogService] Category added: Kitchen
+2025-11-10 05:11:28 INFO  [LogService] Category added: LivingRoom
+2025-11-10 05:11:28 INFO  [LogService] Appliance added: Toaster
+2025-11-10 05:11:28 INFO  [LogService] Appliance updated: newToaster      | Kitchen        |   120,0 W | OFF |
+2025-11-10 05:11:28 INFO  [LogService] Category added: Kitchen
+2025-11-10 05:11:28 INFO  [LogService] Category added: LivingRoom
+2025-11-10 05:11:28 INFO  [LogService] Appliance added: Toaster
+2025-11-10 05:11:28 INFO  [LogService] Category renamed from Kitchen to newKitchen
+2025-11-10 05:11:28 INFO  [LogService] Category added: Kitchen
+2025-11-10 05:11:28 INFO  [LogService] Category added: LivingRoom
+2025-11-10 05:11:28 INFO  [LogService] Appliance added: Toaster
+2025-11-10 05:11:28 INFO  [LogService] Appliance updated: Toaster         | Kitchen        |   100,0 W | OFF |
+2025-11-10 05:11:28 INFO  [LogService] Category added: Kitchen
+2025-11-10 05:11:28 INFO  [LogService] Appliance added: Microwave
+2025-11-10 05:11:28 INFO  [LogService] Appliance added: Toaster
+2025-11-10 05:11:28 INFO  [LogService] Appliance added: Cooker
+2025-11-10 05:11:28 INFO  [LogService] Appliances sorted by power.
+2025-11-10 05:11:28 INFO  [LogService] Category added: Kitchen
+2025-11-10 05:11:28 INFO  [LogService] Appliance added: Toaster
+2025-11-10 05:11:28 INFO  [LogService] Appliance plugged in: Toaster
+2025-11-10 05:11:28 INFO  [LogService] Category added: Kitchen
+2025-11-10 05:11:28 INFO  [LogService] Appliance added: Toaster
+2025-11-10 05:11:28 INFO  [LogService] Appliance unplugged: Toaster
+2025-11-10 05:11:28 INFO  [LogService] Category added: Kitchen
+2025-11-10 05:11:28 INFO  [LogService] Appliance added: Toaster
+2025-11-10 05:11:28 INFO  [LogService] Category removed: Kitchen
+2025-11-10 05:11:28 INFO  [LogService] Category added: Kitchen
+2025-11-10 05:11:28 INFO  [LogService] Appliance added: Toaster
+2025-11-10 05:11:28 INFO  [LogService] Appliance removed: Toaster
+2025-11-10 05:11:41 INFO  [LogService] PROGRAM STARTED.
+2025-11-10 05:11:41 INFO  [LogService] Command registry and manager initialized.
+2025-11-10 05:11:45 INFO  [LogService] User input: -> load
+2025-11-10 05:11:45 INFO  [LogService] Categories replaced from external source.
+2025-11-10 05:11:45 INFO  [LogService] Data loaded from appliances.json
+2025-11-10 05:11:47 INFO  [LogService] User input: -> ls -c
+2025-11-10 05:11:47 INFO  [LogService] Displayed list of categories
+2025-11-10 05:12:11 INFO  [LogService] User input: -> ls -a Bedroom
+2025-11-10 05:12:11 INFO  [LogService] Listed appliances in category: Bedroom
+2025-11-10 05:13:26 INFO  [LogService] User input: -> add -a headphone -c Bedroom -p 15
+2025-11-10 05:13:26 INFO  [LogService] Appliance added: headphone
+2025-11-10 05:13:36 INFO  [LogService] User input: -> ls -c
+2025-11-10 05:13:36 INFO  [LogService] Displayed list of categories
+2025-11-10 05:13:46 INFO  [LogService] User input: -> ls -a Bedroom
+2025-11-10 05:13:46 INFO  [LogService] Listed appliances in category: Bedroom
+2025-11-10 05:14:28 INFO  [LogService] User input: -> edit
+2025-11-10 05:15:06 INFO  [LogService] User input: -> edit -a Fan -c Bathroom; plug -on headphone
+2025-11-10 05:15:06 INFO  [LogService] Appliance updated: Fan             | Bathroom       |   120.0 W | OFF |
+2025-11-10 05:15:06 INFO  [LogService] Appliance plugged in: headphone
+2025-11-10 05:15:12 INFO  [LogService] User input: -> sort
+2025-11-10 05:15:12 INFO  [LogService] Appliances sorted by power.
+2025-11-10 05:15:20 INFO  [LogService] User input: -> ls
+2025-11-10 05:15:25 INFO  [LogService] User input: -> ls -on
+2025-11-10 05:15:25 INFO  [LogService] Displayed list of plugged appliances
+2025-11-10 05:15:44 INFO  [LogService] User input: -> find -r 12.43 -r 132
+2025-11-10 05:15:44 ERROR [LogService] Error: Power values must be integers. 
+java.lang.NumberFormatException: For input string: "12.43"
+	at java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:67) ~[?:?]
+	at java.base/java.lang.Integer.parseInt(Integer.java:665) ~[?:?]
+	at java.base/java.lang.Integer.parseInt(Integer.java:781) ~[?:?]
+	at commands.FindCommand.execute(FindCommand.java:39) ~[classes/:?]
+	at ui.Main.main(Main.java:50) ~[classes/:?]
+	at org.codehaus.mojo.exec.ExecJavaMojo$1.run(ExecJavaMojo.java:279) ~[?:?]
+	at java.base/java.lang.Thread.run(Thread.java:1623) [?:?]
+2025-11-10 05:15:54 INFO  [LogService] User input: -> find -r 12 -r 132
+2025-11-10 05:15:54 ERROR [LogService] Error: Power values must be integers. 
+java.lang.NumberFormatException: For input string: "-r"
+	at java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:67) ~[?:?]
+	at java.base/java.lang.Integer.parseInt(Integer.java:665) ~[?:?]
+	at java.base/java.lang.Integer.parseInt(Integer.java:781) ~[?:?]
+	at commands.FindCommand.execute(FindCommand.java:40) ~[classes/:?]
+	at ui.Main.main(Main.java:50) ~[classes/:?]
+	at org.codehaus.mojo.exec.ExecJavaMojo$1.run(ExecJavaMojo.java:279) ~[?:?]
+	at java.base/java.lang.Thread.run(Thread.java:1623) [?:?]
+2025-11-10 05:15:56 INFO  [LogService] Error email sent successfully.
+2025-11-10 05:16:05 INFO  [LogService] Error email sent successfully.
+2025-11-10 05:16:13 INFO  [LogService] User input: -> find
+2025-11-10 05:16:20 INFO  [LogService] User input: -> find -r 12 132
+2025-11-10 05:16:20 INFO  [LogService] Found appliance in range 12-132 W: Monitor
+2025-11-10 05:16:20 INFO  [LogService] Found appliance in range 12-132 W: DeskLamp
+2025-11-10 05:16:20 INFO  [LogService] Found appliance in range 12-132 W: Router
+2025-11-10 05:16:20 INFO  [LogService] Found appliance in range 12-132 W: GardenLight
+2025-11-10 05:16:20 INFO  [LogService] Found appliance in range 12-132 W: Light
+2025-11-10 05:16:20 INFO  [LogService] Found appliance in range 12-132 W: Fan
+2025-11-10 05:16:20 INFO  [LogService] Found appliance in range 12-132 W: MirrorLight
+2025-11-10 05:16:20 INFO  [LogService] Found appliance in range 12-132 W: ElectricShaver
+2025-11-10 05:16:20 INFO  [LogService] Found appliance in range 12-132 W: Light
+2025-11-10 05:16:20 INFO  [LogService] Found appliance in range 12-132 W: Fan
+2025-11-10 05:16:20 INFO  [LogService] Found appliance in range 12-132 W: Laptop
+2025-11-10 05:16:20 INFO  [LogService] Found appliance in range 12-132 W: BedsideLamp
+2025-11-10 05:16:20 INFO  [LogService] Found appliance in range 12-132 W: PhoneCharger
+2025-11-10 05:16:20 INFO  [LogService] Found appliance in range 12-132 W: headphone
+2025-11-10 05:16:20 INFO  [LogService] Found appliance in range 12-132 W: Light
+2025-11-10 05:16:20 INFO  [LogService] Found appliance in range 12-132 W: AirPurifier
+2025-11-10 05:16:20 INFO  [LogService] Found appliance in range 12-132 W: Lamp
+2025-11-10 05:16:20 INFO  [LogService] Found appliance in range 12-132 W: CeilingLight
+2025-11-10 05:16:20 INFO  [LogService] Found appliance in range 12-132 W: MirrorLight
+2025-11-10 05:16:26 INFO  [LogService] User input: -> help
+2025-11-10 05:16:31 INFO  [LogService] User input: -> log
+2025-11-10 05:16:31 INFO  [LogService] Displayed log content.
+2025-11-10 05:16:41 INFO  [LogService] User input: -> total
+2025-11-10 05:16:49 INFO  [LogService] User input: -> rm
+2025-11-10 05:17:00 INFO  [LogService] User input: -> ls -c
+2025-11-10 05:17:00 INFO  [LogService] Displayed list of categories
+2025-11-10 05:17:14 INFO  [LogService] User input: -> rm -c Garage
+2025-11-10 05:17:14 INFO  [LogService] Category removed: Garage
+2025-11-10 05:17:16 INFO  [LogService] User input: -> ls -c
+2025-11-10 05:17:16 INFO  [LogService] Displayed list of categories
+2025-11-10 05:17:23 INFO  [LogService] User input: -> sort
+2025-11-10 05:17:23 INFO  [LogService] Appliances sorted by power.
+2025-11-10 05:17:29 INFO  [LogService] User input: -> save
+2025-11-10 05:17:29 INFO  [LogService] Data saved to appliances.json
+2025-11-10 05:17:35 INFO  [LogService] User input: -> exit
+2025-11-10 05:17:35 INFO  [LogService] Program exited by user.
+2025-11-10 06:10:25 INFO  [LogService] Category added: Kitchen
+2025-11-10 06:10:25 INFO  [LogService] Category added: Kitchen
+2025-11-10 06:10:25 INFO  [LogService] Appliance added: Toaster
+2025-11-10 06:10:25 INFO  [LogService] Category added: Kitchen
+2025-11-10 06:10:25 INFO  [LogService] Appliance added: Microwave
+2025-11-10 06:10:25 INFO  [LogService] Appliance added: Toaster
+2025-11-10 06:10:25 INFO  [LogService] Appliance added: Cooker
+2025-11-10 06:10:25 INFO  [LogService] Category added: Kitchen
+2025-11-10 06:10:25 INFO  [LogService] Category added: LivingRoom
+2025-11-10 06:10:25 INFO  [LogService] Appliance added: Toaster
+2025-11-10 06:10:25 INFO  [LogService] Appliance updated: Toaster         | LivingRoom     |   120,0 W | OFF |
+2025-11-10 06:10:25 INFO  [LogService] Category added: Kitchen
+2025-11-10 06:10:25 INFO  [LogService] Category added: LivingRoom
+2025-11-10 06:10:25 INFO  [LogService] Appliance added: Toaster
+2025-11-10 06:10:25 INFO  [LogService] Appliance updated: newToaster      | Kitchen        |   120,0 W | OFF |
+2025-11-10 06:10:25 INFO  [LogService] Category added: Kitchen
+2025-11-10 06:10:25 INFO  [LogService] Category added: LivingRoom
+2025-11-10 06:10:25 INFO  [LogService] Appliance added: Toaster
+2025-11-10 06:10:25 INFO  [LogService] Category renamed from Kitchen to newKitchen
+2025-11-10 06:10:25 INFO  [LogService] Category added: Kitchen
+2025-11-10 06:10:25 INFO  [LogService] Category added: LivingRoom
+2025-11-10 06:10:25 INFO  [LogService] Appliance added: Toaster
+2025-11-10 06:10:25 INFO  [LogService] Appliance updated: Toaster         | Kitchen        |   100,0 W | OFF |
+2025-11-10 06:10:25 INFO  [LogService] Category added: Kitchen
+2025-11-10 06:10:25 INFO  [LogService] Appliance added: Microwave
+2025-11-10 06:10:25 INFO  [LogService] Appliance added: Toaster
+2025-11-10 06:10:25 INFO  [LogService] Appliance added: Cooker
+2025-11-10 06:10:25 INFO  [LogService] Appliances sorted by power.
+2025-11-10 06:10:25 INFO  [LogService] Category added: Kitchen
+2025-11-10 06:10:25 INFO  [LogService] Appliance added: Toaster
+2025-11-10 06:10:25 INFO  [LogService] Appliance plugged in: Toaster
+2025-11-10 06:10:25 INFO  [LogService] Category added: Kitchen
+2025-11-10 06:10:25 INFO  [LogService] Appliance added: Toaster
+2025-11-10 06:10:25 INFO  [LogService] Appliance unplugged: Toaster
+2025-11-10 06:10:25 INFO  [LogService] Category added: Kitchen
+2025-11-10 06:10:25 INFO  [LogService] Appliance added: Toaster
+2025-11-10 06:10:25 INFO  [LogService] Category removed: Kitchen
+2025-11-10 06:10:25 INFO  [LogService] Category added: Kitchen
+2025-11-10 06:10:25 INFO  [LogService] Appliance added: Toaster
+2025-11-10 06:10:25 INFO  [LogService] Appliance removed: Toaster
+2025-11-10 06:17:28 INFO  [LogService] Category added: Kitchen
+2025-11-10 06:17:28 INFO  [LogService] Appliance added: Microwave
+2025-11-10 06:17:28 INFO  [LogService] Appliance added: Toaster
+2025-11-10 06:17:28 INFO  [LogService] Appliance added: Cooker
+2025-11-10 06:17:28 INFO  [LogService] Category added: Kitchen
+2025-11-10 06:17:28 INFO  [LogService] Appliance added: Microwave
+2025-11-10 06:17:28 INFO  [LogService] Appliance added: Toaster
+2025-11-10 06:17:28 INFO  [LogService] Appliance added: Cooker
+2025-11-10 06:17:28 INFO  [LogService] Found appliance in range 100-200 W: Toaster
+2025-11-10 06:17:28 INFO  [LogService] Category added: Kitchen
+2025-11-10 06:17:28 INFO  [LogService] Appliance added: Microwave
+2025-11-10 06:17:28 INFO  [LogService] Appliance added: Toaster
+2025-11-10 06:17:28 INFO  [LogService] Appliance added: Cooker
+2025-11-10 06:17:28 ERROR [LogService] Error: Power values must be integers. 
+java.lang.NumberFormatException: For input string: "low"
+	at java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:67) ~[?:?]
+	at java.base/java.lang.Integer.parseInt(Integer.java:565) ~[?:?]
+	at java.base/java.lang.Integer.parseInt(Integer.java:662) ~[?:?]
+	at commands.FindCommand.execute(FindCommand.java:58) [classes/:?]
+	at commands.FindCommandTest.lambda$testFindWithInvalidRangeArguments$0(FindCommandTest.java:56) [test-classes/:?]
+	at org.junit.jupiter.api.AssertDoesNotThrow.assertDoesNotThrow(AssertDoesNotThrow.java:49) [junit-jupiter-api-5.10.2.jar:5.10.2]
+	at org.junit.jupiter.api.AssertDoesNotThrow.assertDoesNotThrow(AssertDoesNotThrow.java:40) [junit-jupiter-api-5.10.2.jar:5.10.2]
+	at org.junit.jupiter.api.Assertions.assertDoesNotThrow(Assertions.java:3187) [junit-jupiter-api-5.10.2.jar:5.10.2]
+	at commands.FindCommandTest.testFindWithInvalidRangeArguments(FindCommandTest.java:55) [test-classes/:?]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565) ~[?:?]
+	at org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:728) [junit-platform-commons-1.10.2.jar:1.10.2]
+	at org.junit.jupiter.engine.execution.MethodInvocation.proceed(MethodInvocation.java:60) [junit-jupiter-engine-5.10.2.jar:5.10.2]
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$ValidatingInvocation.proceed(InvocationInterceptorChain.java:131) [junit-jupiter-engine-5.10.2.jar:5.10.2]
+	at org.junit.jupiter.engine.extension.TimeoutExtension.intercept(TimeoutExtension.java:156) [junit-jupiter-engine-5.10.2.jar:5.10.2]
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestableMethod(TimeoutExtension.java:147) [junit-jupiter-engine-5.10.2.jar:5.10.2]
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestMethod(TimeoutExtension.java:86) [junit-jupiter-engine-5.10.2.jar:5.10.2]
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker$ReflectiveInterceptorCall.lambda$ofVoidMethod$0(InterceptingExecutableInvoker.java:103) [junit-jupiter-engine-5.10.2.jar:5.10.2]
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.lambda$invoke$0(InterceptingExecutableInvoker.java:93) [junit-jupiter-engine-5.10.2.jar:5.10.2]
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$InterceptedInvocation.proceed(InvocationInterceptorChain.java:106) [junit-jupiter-engine-5.10.2.jar:5.10.2]
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.proceed(InvocationInterceptorChain.java:64) [junit-jupiter-engine-5.10.2.jar:5.10.2]
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.chainAndInvoke(InvocationInterceptorChain.java:45) [junit-jupiter-engine-5.10.2.jar:5.10.2]
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.invoke(InvocationInterceptorChain.java:37) [junit-jupiter-engine-5.10.2.jar:5.10.2]
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.invoke(InterceptingExecutableInvoker.java:92) [junit-jupiter-engine-5.10.2.jar:5.10.2]
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.invoke(InterceptingExecutableInvoker.java:86) [junit-jupiter-engine-5.10.2.jar:5.10.2]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeTestMethod$7(TestMethodTestDescriptor.java:218) [junit-jupiter-engine-5.10.2.jar:5.10.2]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) [junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.invokeTestMethod(TestMethodTestDescriptor.java:214) [junit-jupiter-engine-5.10.2.jar:5.10.2]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:139) [junit-jupiter-engine-5.10.2.jar:5.10.2]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:69) [junit-jupiter-engine-5.10.2.jar:5.10.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:151) [junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) [junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141) [junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137) [junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139) [junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) [junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138) [junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95) [junit-platform-engine-1.10.2.jar:1.10.2]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604) [?:?]
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41) [junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155) [junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) [junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141) [junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137) [junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139) [junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) [junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138) [junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95) [junit-platform-engine-1.10.2.jar:1.10.2]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604) [?:?]
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41) [junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155) [junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) [junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141) [junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137) [junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139) [junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) [junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138) [junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95) [junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:35) [junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57) [junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:54) [junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:198) [junit-platform-launcher-1.10.2.jar:1.10.2]
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:169) [junit-platform-launcher-1.10.2.jar:1.10.2]
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:93) [junit-platform-launcher-1.10.2.jar:1.10.2]
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.lambda$execute$0(EngineExecutionOrchestrator.java:58) [junit-platform-launcher-1.10.2.jar:1.10.2]
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.withInterceptedStreams(EngineExecutionOrchestrator.java:141) [junit-platform-launcher-1.10.2.jar:1.10.2]
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:57) [junit-platform-launcher-1.10.2.jar:1.10.2]
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:103) [junit-platform-launcher-1.10.2.jar:1.10.2]
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:85) [junit-platform-launcher-1.10.2.jar:1.10.2]
+	at org.junit.platform.launcher.core.DelegatingLauncher.execute(DelegatingLauncher.java:47) [junit-platform-launcher-1.10.2.jar:1.10.2]
+	at org.junit.platform.launcher.core.SessionPerRequestLauncher.execute(SessionPerRequestLauncher.java:63) [junit-platform-launcher-1.10.2.jar:1.10.2]
+	at com.intellij.junit5.JUnit5IdeaTestRunner.startRunnerWithArgs(JUnit5IdeaTestRunner.java:66) [junit5-rt.jar:?]
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater$1.execute(IdeaTestRunner.java:38) [junit-rt.jar:?]
+	at com.intellij.rt.execution.junit.TestsRepeater.repeat(TestsRepeater.java:11) [idea_rt.jar:?]
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:35) [junit-rt.jar:?]
+	at com.intellij.rt.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:231) [junit-rt.jar:?]
+	at com.intellij.rt.junit.JUnitStarter.main(JUnitStarter.java:55) [junit-rt.jar:?]
+2025-11-10 06:17:28 INFO  [LogService] Category added: Kitchen
+2025-11-10 06:17:28 INFO  [LogService] Appliance added: Microwave
+2025-11-10 06:17:28 INFO  [LogService] Appliance added: Toaster
+2025-11-10 06:17:28 INFO  [LogService] Appliance added: Cooker
+2025-11-10 06:17:28 INFO  [LogService] Category added: Kitchen
+2025-11-10 06:17:28 INFO  [LogService] Appliance added: Microwave
+2025-11-10 06:17:28 INFO  [LogService] Appliance added: Toaster
+2025-11-10 06:17:28 INFO  [LogService] Appliance added: Cooker
+2025-11-10 06:17:28 INFO  [LogService] Category added: Kitchen
+2025-11-10 06:17:28 INFO  [LogService] Category added: Kitchen
+2025-11-10 06:17:28 INFO  [LogService] Appliance added: Toaster
+2025-11-10 06:17:28 INFO  [LogService] Category added: Kitchen
+2025-11-10 06:17:28 INFO  [LogService] Appliance added: Microwave
+2025-11-10 06:17:28 INFO  [LogService] Appliance added: Toaster
+2025-11-10 06:17:28 INFO  [LogService] Appliance added: Cooker
+2025-11-10 06:17:28 INFO  [LogService] Category added: Kitchen
+2025-11-10 06:17:28 INFO  [LogService] Category added: LivingRoom
+2025-11-10 06:17:28 INFO  [LogService] Appliance added: Toaster
+2025-11-10 06:17:28 INFO  [LogService] Appliance updated: Toaster         | LivingRoom     |   120,0 W | OFF |
+2025-11-10 06:17:28 INFO  [LogService] Category added: Kitchen
+2025-11-10 06:17:28 INFO  [LogService] Category added: LivingRoom
+2025-11-10 06:17:28 INFO  [LogService] Appliance added: Toaster
+2025-11-10 06:17:28 INFO  [LogService] Appliance updated: newToaster      | Kitchen        |   120,0 W | OFF |
+2025-11-10 06:17:28 INFO  [LogService] Category added: Kitchen
+2025-11-10 06:17:28 INFO  [LogService] Category added: LivingRoom
+2025-11-10 06:17:28 INFO  [LogService] Appliance added: Toaster
+2025-11-10 06:17:28 INFO  [LogService] Category renamed from Kitchen to newKitchen
+2025-11-10 06:17:28 INFO  [LogService] Category added: Kitchen
+2025-11-10 06:17:28 INFO  [LogService] Category added: LivingRoom
+2025-11-10 06:17:28 INFO  [LogService] Appliance added: Toaster
+2025-11-10 06:17:28 INFO  [LogService] Appliance updated: Toaster         | Kitchen        |   100,0 W | OFF |
+2025-11-10 06:17:28 INFO  [LogService] Category added: Kitchen
+2025-11-10 06:17:28 INFO  [LogService] Appliance added: Microwave
+2025-11-10 06:17:28 INFO  [LogService] Appliance added: Toaster
+2025-11-10 06:17:28 INFO  [LogService] Appliance added: Cooker
+2025-11-10 06:17:28 INFO  [LogService] Appliances sorted by power.
+2025-11-10 06:17:28 INFO  [LogService] Category added: Kitchen
+2025-11-10 06:17:28 INFO  [LogService] Appliance added: Toaster
+2025-11-10 06:17:28 INFO  [LogService] Appliance plugged in: Toaster
+2025-11-10 06:17:28 INFO  [LogService] Category added: Kitchen
+2025-11-10 06:17:28 INFO  [LogService] Appliance added: Toaster
+2025-11-10 06:17:28 INFO  [LogService] Appliance unplugged: Toaster
+2025-11-10 06:17:28 INFO  [LogService] Category added: Kitchen
+2025-11-10 06:17:28 INFO  [LogService] Appliance added: Toaster
+2025-11-10 06:17:28 INFO  [LogService] Category removed: Kitchen
+2025-11-10 06:17:28 INFO  [LogService] Category added: Kitchen
+2025-11-10 06:17:28 INFO  [LogService] Appliance added: Toaster
+2025-11-10 06:17:28 INFO  [LogService] Appliance removed: Toaster
+2025-11-10 06:24:05 INFO  [LogService] Category added: Kitchen
+2025-11-10 06:24:05 INFO  [LogService] Appliance added: Microwave
+2025-11-10 06:24:05 INFO  [LogService] Appliance added: Toaster
+2025-11-10 06:24:05 INFO  [LogService] Appliance added: Cooker
+2025-11-10 06:24:05 INFO  [LogService] Category added: Kitchen
+2025-11-10 06:24:05 INFO  [LogService] Appliance added: Microwave
+2025-11-10 06:24:05 INFO  [LogService] Appliance added: Toaster
+2025-11-10 06:24:05 INFO  [LogService] Appliance added: Cooker
+2025-11-10 06:24:05 INFO  [LogService] Found appliance in range 100-200 W: Toaster
+2025-11-10 06:24:05 INFO  [LogService] Category added: Kitchen
+2025-11-10 06:24:05 INFO  [LogService] Appliance added: Microwave
+2025-11-10 06:24:05 INFO  [LogService] Appliance added: Toaster
+2025-11-10 06:24:05 INFO  [LogService] Appliance added: Cooker
+2025-11-10 06:24:05 ERROR [LogService] Error: Power values must be integers. 
+java.lang.NumberFormatException: For input string: "low"
+	at java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:67) ~[?:?]
+	at java.base/java.lang.Integer.parseInt(Integer.java:565) ~[?:?]
+	at java.base/java.lang.Integer.parseInt(Integer.java:662) ~[?:?]
+	at commands.FindCommand.execute(FindCommand.java:58) [classes/:?]
+	at commands.FindCommandTest.lambda$testFindWithInvalidRangeArguments$0(FindCommandTest.java:52) [test-classes/:?]
+	at org.junit.jupiter.api.AssertDoesNotThrow.assertDoesNotThrow(AssertDoesNotThrow.java:49) [junit-jupiter-api-5.10.2.jar:5.10.2]
+	at org.junit.jupiter.api.AssertDoesNotThrow.assertDoesNotThrow(AssertDoesNotThrow.java:40) [junit-jupiter-api-5.10.2.jar:5.10.2]
+	at org.junit.jupiter.api.Assertions.assertDoesNotThrow(Assertions.java:3187) [junit-jupiter-api-5.10.2.jar:5.10.2]
+	at commands.FindCommandTest.testFindWithInvalidRangeArguments(FindCommandTest.java:52) [test-classes/:?]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565) ~[?:?]
+	at org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:728) [junit-platform-commons-1.10.2.jar:1.10.2]
+	at org.junit.jupiter.engine.execution.MethodInvocation.proceed(MethodInvocation.java:60) [junit-jupiter-engine-5.10.2.jar:5.10.2]
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$ValidatingInvocation.proceed(InvocationInterceptorChain.java:131) [junit-jupiter-engine-5.10.2.jar:5.10.2]
+	at org.junit.jupiter.engine.extension.TimeoutExtension.intercept(TimeoutExtension.java:156) [junit-jupiter-engine-5.10.2.jar:5.10.2]
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestableMethod(TimeoutExtension.java:147) [junit-jupiter-engine-5.10.2.jar:5.10.2]
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestMethod(TimeoutExtension.java:86) [junit-jupiter-engine-5.10.2.jar:5.10.2]
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker$ReflectiveInterceptorCall.lambda$ofVoidMethod$0(InterceptingExecutableInvoker.java:103) [junit-jupiter-engine-5.10.2.jar:5.10.2]
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.lambda$invoke$0(InterceptingExecutableInvoker.java:93) [junit-jupiter-engine-5.10.2.jar:5.10.2]
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$InterceptedInvocation.proceed(InvocationInterceptorChain.java:106) [junit-jupiter-engine-5.10.2.jar:5.10.2]
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.proceed(InvocationInterceptorChain.java:64) [junit-jupiter-engine-5.10.2.jar:5.10.2]
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.chainAndInvoke(InvocationInterceptorChain.java:45) [junit-jupiter-engine-5.10.2.jar:5.10.2]
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.invoke(InvocationInterceptorChain.java:37) [junit-jupiter-engine-5.10.2.jar:5.10.2]
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.invoke(InterceptingExecutableInvoker.java:92) [junit-jupiter-engine-5.10.2.jar:5.10.2]
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.invoke(InterceptingExecutableInvoker.java:86) [junit-jupiter-engine-5.10.2.jar:5.10.2]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeTestMethod$7(TestMethodTestDescriptor.java:218) [junit-jupiter-engine-5.10.2.jar:5.10.2]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) [junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.invokeTestMethod(TestMethodTestDescriptor.java:214) [junit-jupiter-engine-5.10.2.jar:5.10.2]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:139) [junit-jupiter-engine-5.10.2.jar:5.10.2]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:69) [junit-jupiter-engine-5.10.2.jar:5.10.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:151) [junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) [junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141) [junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137) [junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139) [junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) [junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138) [junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95) [junit-platform-engine-1.10.2.jar:1.10.2]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604) [?:?]
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41) [junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155) [junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) [junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141) [junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137) [junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139) [junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) [junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138) [junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95) [junit-platform-engine-1.10.2.jar:1.10.2]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604) [?:?]
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41) [junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155) [junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) [junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141) [junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137) [junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139) [junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) [junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138) [junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95) [junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:35) [junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57) [junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:54) [junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:198) [junit-platform-launcher-1.10.2.jar:1.10.2]
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:169) [junit-platform-launcher-1.10.2.jar:1.10.2]
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:93) [junit-platform-launcher-1.10.2.jar:1.10.2]
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.lambda$execute$0(EngineExecutionOrchestrator.java:58) [junit-platform-launcher-1.10.2.jar:1.10.2]
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.withInterceptedStreams(EngineExecutionOrchestrator.java:141) [junit-platform-launcher-1.10.2.jar:1.10.2]
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:57) [junit-platform-launcher-1.10.2.jar:1.10.2]
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:103) [junit-platform-launcher-1.10.2.jar:1.10.2]
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:85) [junit-platform-launcher-1.10.2.jar:1.10.2]
+	at org.junit.platform.launcher.core.DelegatingLauncher.execute(DelegatingLauncher.java:47) [junit-platform-launcher-1.10.2.jar:1.10.2]
+	at org.junit.platform.launcher.core.SessionPerRequestLauncher.execute(SessionPerRequestLauncher.java:63) [junit-platform-launcher-1.10.2.jar:1.10.2]
+	at com.intellij.junit5.JUnit5IdeaTestRunner.startRunnerWithArgs(JUnit5IdeaTestRunner.java:66) [junit5-rt.jar:?]
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater$1.execute(IdeaTestRunner.java:38) [junit-rt.jar:?]
+	at com.intellij.rt.execution.junit.TestsRepeater.repeat(TestsRepeater.java:11) [idea_rt.jar:?]
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:35) [junit-rt.jar:?]
+	at com.intellij.rt.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:231) [junit-rt.jar:?]
+	at com.intellij.rt.junit.JUnitStarter.main(JUnitStarter.java:55) [junit-rt.jar:?]
+2025-11-10 06:24:05 INFO  [LogService] Category added: Kitchen
+2025-11-10 06:24:05 INFO  [LogService] Appliance added: Microwave
+2025-11-10 06:24:05 INFO  [LogService] Appliance added: Toaster
+2025-11-10 06:24:05 INFO  [LogService] Appliance added: Cooker
+2025-11-10 06:24:05 INFO  [LogService] Category added: Kitchen
+2025-11-10 06:24:05 INFO  [LogService] Appliance added: Microwave
+2025-11-10 06:24:05 INFO  [LogService] Appliance added: Toaster
+2025-11-10 06:24:05 INFO  [LogService] Appliance added: Cooker
+2025-11-10 06:24:05 INFO  [LogService] Category added: Kitchen
+2025-11-10 06:24:05 INFO  [LogService] Category added: Kitchen
+2025-11-10 06:24:05 INFO  [LogService] Appliance added: Toaster
+2025-11-10 06:24:05 INFO  [LogService] Category added: Kitchen
+2025-11-10 06:24:05 INFO  [LogService] Appliance added: Microwave
+2025-11-10 06:24:05 INFO  [LogService] Appliance added: Toaster
+2025-11-10 06:24:05 INFO  [LogService] Appliance added: Cooker
+2025-11-10 06:24:05 INFO  [LogService] Category added: Kitchen
+2025-11-10 06:24:05 INFO  [LogService] Category added: LivingRoom
+2025-11-10 06:24:05 INFO  [LogService] Appliance added: Toaster
+2025-11-10 06:24:05 INFO  [LogService] Appliance updated: Toaster         | LivingRoom     |   120,0 W | OFF |
+2025-11-10 06:24:05 INFO  [LogService] Category added: Kitchen
+2025-11-10 06:24:05 INFO  [LogService] Category added: LivingRoom
+2025-11-10 06:24:05 INFO  [LogService] Appliance added: Toaster
+2025-11-10 06:24:05 INFO  [LogService] Appliance updated: newToaster      | Kitchen        |   120,0 W | OFF |
+2025-11-10 06:24:05 INFO  [LogService] Category added: Kitchen
+2025-11-10 06:24:05 INFO  [LogService] Category added: LivingRoom
+2025-11-10 06:24:05 INFO  [LogService] Appliance added: Toaster
+2025-11-10 06:24:05 INFO  [LogService] Category renamed from Kitchen to newKitchen
+2025-11-10 06:24:05 INFO  [LogService] Category added: Kitchen
+2025-11-10 06:24:05 INFO  [LogService] Category added: LivingRoom
+2025-11-10 06:24:05 INFO  [LogService] Appliance added: Toaster
+2025-11-10 06:24:05 INFO  [LogService] Appliance updated: Toaster         | Kitchen        |   100,0 W | OFF |
+2025-11-10 06:24:05 INFO  [LogService] Category added: Kitchen
+2025-11-10 06:24:05 INFO  [LogService] Appliance added: Microwave
+2025-11-10 06:24:05 INFO  [LogService] Appliance added: Toaster
+2025-11-10 06:24:05 INFO  [LogService] Appliance added: Cooker
+2025-11-10 06:24:05 INFO  [LogService] Appliances sorted by power.
+2025-11-10 06:24:05 INFO  [LogService] Category added: Kitchen
+2025-11-10 06:24:05 INFO  [LogService] Appliance added: Toaster
+2025-11-10 06:24:05 INFO  [LogService] Appliance plugged in: Toaster
+2025-11-10 06:24:05 INFO  [LogService] Category added: Kitchen
+2025-11-10 06:24:05 INFO  [LogService] Appliance added: Toaster
+2025-11-10 06:24:05 INFO  [LogService] Appliance unplugged: Toaster
+2025-11-10 06:24:05 INFO  [LogService] Categories replaced from external source.
+2025-11-10 06:24:05 INFO  [LogService] Category added: Kitchen
+2025-11-10 06:24:05 INFO  [LogService] Appliance added: Toaster
+2025-11-10 06:24:05 INFO  [LogService] Category removed: Kitchen
+2025-11-10 06:24:05 INFO  [LogService] Category added: Kitchen
+2025-11-10 06:24:05 INFO  [LogService] Appliance added: Toaster
+2025-11-10 06:24:05 INFO  [LogService] Appliance removed: Toaster
+2025-11-10 06:24:47 INFO  [LogService] Category added: Kitchen
+2025-11-10 06:24:47 INFO  [LogService] Appliance added: Microwave
+2025-11-10 06:24:47 INFO  [LogService] Appliance added: Toaster
+2025-11-10 06:24:47 INFO  [LogService] Appliance added: Cooker
+2025-11-10 06:24:47 INFO  [LogService] Category added: Kitchen
+2025-11-10 06:24:47 INFO  [LogService] Appliance added: Microwave
+2025-11-10 06:24:47 INFO  [LogService] Appliance added: Toaster
+2025-11-10 06:24:47 INFO  [LogService] Appliance added: Cooker
+2025-11-10 06:24:47 INFO  [LogService] Found appliance in range 100-200 W: Toaster
+2025-11-10 06:24:47 INFO  [LogService] Category added: Kitchen
+2025-11-10 06:24:47 INFO  [LogService] Appliance added: Microwave
+2025-11-10 06:24:47 INFO  [LogService] Appliance added: Toaster
+2025-11-10 06:24:47 INFO  [LogService] Appliance added: Cooker
+2025-11-10 06:24:47 ERROR [LogService] Error: Power values must be integers. 
+java.lang.NumberFormatException: For input string: "low"
+	at java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:67) ~[?:?]
+	at java.base/java.lang.Integer.parseInt(Integer.java:565) ~[?:?]
+	at java.base/java.lang.Integer.parseInt(Integer.java:662) ~[?:?]
+	at commands.FindCommand.execute(FindCommand.java:58) [classes/:?]
+	at commands.FindCommandTest.lambda$testFindWithInvalidRangeArguments$0(FindCommandTest.java:52) [test-classes/:?]
+	at org.junit.jupiter.api.AssertDoesNotThrow.assertDoesNotThrow(AssertDoesNotThrow.java:49) [junit-jupiter-api-5.10.2.jar:5.10.2]
+	at org.junit.jupiter.api.AssertDoesNotThrow.assertDoesNotThrow(AssertDoesNotThrow.java:40) [junit-jupiter-api-5.10.2.jar:5.10.2]
+	at org.junit.jupiter.api.Assertions.assertDoesNotThrow(Assertions.java:3187) [junit-jupiter-api-5.10.2.jar:5.10.2]
+	at commands.FindCommandTest.testFindWithInvalidRangeArguments(FindCommandTest.java:52) [test-classes/:?]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565) ~[?:?]
+	at org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:728) [junit-platform-commons-1.10.2.jar:1.10.2]
+	at org.junit.jupiter.engine.execution.MethodInvocation.proceed(MethodInvocation.java:60) [junit-jupiter-engine-5.10.2.jar:5.10.2]
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$ValidatingInvocation.proceed(InvocationInterceptorChain.java:131) [junit-jupiter-engine-5.10.2.jar:5.10.2]
+	at org.junit.jupiter.engine.extension.TimeoutExtension.intercept(TimeoutExtension.java:156) [junit-jupiter-engine-5.10.2.jar:5.10.2]
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestableMethod(TimeoutExtension.java:147) [junit-jupiter-engine-5.10.2.jar:5.10.2]
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestMethod(TimeoutExtension.java:86) [junit-jupiter-engine-5.10.2.jar:5.10.2]
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker$ReflectiveInterceptorCall.lambda$ofVoidMethod$0(InterceptingExecutableInvoker.java:103) [junit-jupiter-engine-5.10.2.jar:5.10.2]
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.lambda$invoke$0(InterceptingExecutableInvoker.java:93) [junit-jupiter-engine-5.10.2.jar:5.10.2]
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$InterceptedInvocation.proceed(InvocationInterceptorChain.java:106) [junit-jupiter-engine-5.10.2.jar:5.10.2]
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.proceed(InvocationInterceptorChain.java:64) [junit-jupiter-engine-5.10.2.jar:5.10.2]
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.chainAndInvoke(InvocationInterceptorChain.java:45) [junit-jupiter-engine-5.10.2.jar:5.10.2]
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.invoke(InvocationInterceptorChain.java:37) [junit-jupiter-engine-5.10.2.jar:5.10.2]
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.invoke(InterceptingExecutableInvoker.java:92) [junit-jupiter-engine-5.10.2.jar:5.10.2]
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.invoke(InterceptingExecutableInvoker.java:86) [junit-jupiter-engine-5.10.2.jar:5.10.2]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeTestMethod$7(TestMethodTestDescriptor.java:218) [junit-jupiter-engine-5.10.2.jar:5.10.2]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) [junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.invokeTestMethod(TestMethodTestDescriptor.java:214) [junit-jupiter-engine-5.10.2.jar:5.10.2]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:139) [junit-jupiter-engine-5.10.2.jar:5.10.2]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:69) [junit-jupiter-engine-5.10.2.jar:5.10.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:151) [junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) [junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141) [junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137) [junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139) [junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) [junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138) [junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95) [junit-platform-engine-1.10.2.jar:1.10.2]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604) [?:?]
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41) [junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155) [junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) [junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141) [junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137) [junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139) [junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) [junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138) [junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95) [junit-platform-engine-1.10.2.jar:1.10.2]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604) [?:?]
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41) [junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155) [junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) [junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141) [junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137) [junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139) [junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) [junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138) [junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95) [junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:35) [junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57) [junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:54) [junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:198) [junit-platform-launcher-1.10.2.jar:1.10.2]
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:169) [junit-platform-launcher-1.10.2.jar:1.10.2]
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:93) [junit-platform-launcher-1.10.2.jar:1.10.2]
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.lambda$execute$0(EngineExecutionOrchestrator.java:58) [junit-platform-launcher-1.10.2.jar:1.10.2]
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.withInterceptedStreams(EngineExecutionOrchestrator.java:141) [junit-platform-launcher-1.10.2.jar:1.10.2]
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:57) [junit-platform-launcher-1.10.2.jar:1.10.2]
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:103) [junit-platform-launcher-1.10.2.jar:1.10.2]
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:85) [junit-platform-launcher-1.10.2.jar:1.10.2]
+	at org.junit.platform.launcher.core.DelegatingLauncher.execute(DelegatingLauncher.java:47) [junit-platform-launcher-1.10.2.jar:1.10.2]
+	at org.junit.platform.launcher.core.SessionPerRequestLauncher.execute(SessionPerRequestLauncher.java:63) [junit-platform-launcher-1.10.2.jar:1.10.2]
+	at com.intellij.junit5.JUnit5IdeaTestRunner.startRunnerWithArgs(JUnit5IdeaTestRunner.java:66) [junit5-rt.jar:?]
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater$1.execute(IdeaTestRunner.java:38) [junit-rt.jar:?]
+	at com.intellij.rt.execution.junit.TestsRepeater.repeat(TestsRepeater.java:11) [idea_rt.jar:?]
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:35) [junit-rt.jar:?]
+	at com.intellij.rt.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:231) [junit-rt.jar:?]
+	at com.intellij.rt.junit.JUnitStarter.main(JUnitStarter.java:55) [junit-rt.jar:?]
+2025-11-10 06:24:47 INFO  [LogService] Category added: Kitchen
+2025-11-10 06:24:47 INFO  [LogService] Appliance added: Microwave
+2025-11-10 06:24:47 INFO  [LogService] Appliance added: Toaster
+2025-11-10 06:24:47 INFO  [LogService] Appliance added: Cooker
+2025-11-10 06:24:47 INFO  [LogService] Category added: Kitchen
+2025-11-10 06:24:47 INFO  [LogService] Appliance added: Microwave
+2025-11-10 06:24:47 INFO  [LogService] Appliance added: Toaster
+2025-11-10 06:24:47 INFO  [LogService] Appliance added: Cooker
+2025-11-10 06:24:47 INFO  [LogService] Category added: Kitchen
+2025-11-10 06:24:47 INFO  [LogService] Category added: Kitchen
+2025-11-10 06:24:47 INFO  [LogService] Appliance added: Toaster
+2025-11-10 06:24:47 INFO  [LogService] Category added: Kitchen
+2025-11-10 06:24:47 INFO  [LogService] Appliance added: Microwave
+2025-11-10 06:24:47 INFO  [LogService] Appliance added: Toaster
+2025-11-10 06:24:47 INFO  [LogService] Appliance added: Cooker
+2025-11-10 06:24:47 INFO  [LogService] Category added: Kitchen
+2025-11-10 06:24:47 INFO  [LogService] Category added: LivingRoom
+2025-11-10 06:24:47 INFO  [LogService] Appliance added: Toaster
+2025-11-10 06:24:47 INFO  [LogService] Appliance updated: Toaster         | LivingRoom     |   120,0 W | OFF |
+2025-11-10 06:24:47 INFO  [LogService] Category added: Kitchen
+2025-11-10 06:24:47 INFO  [LogService] Category added: LivingRoom
+2025-11-10 06:24:47 INFO  [LogService] Appliance added: Toaster
+2025-11-10 06:24:47 INFO  [LogService] Appliance updated: newToaster      | Kitchen        |   120,0 W | OFF |
+2025-11-10 06:24:47 INFO  [LogService] Category added: Kitchen
+2025-11-10 06:24:47 INFO  [LogService] Category added: LivingRoom
+2025-11-10 06:24:47 INFO  [LogService] Appliance added: Toaster
+2025-11-10 06:24:47 INFO  [LogService] Category renamed from Kitchen to newKitchen
+2025-11-10 06:24:47 INFO  [LogService] Category added: Kitchen
+2025-11-10 06:24:47 INFO  [LogService] Category added: LivingRoom
+2025-11-10 06:24:47 INFO  [LogService] Appliance added: Toaster
+2025-11-10 06:24:47 INFO  [LogService] Appliance updated: Toaster         | Kitchen        |   100,0 W | OFF |
+2025-11-10 06:24:47 INFO  [LogService] Category added: Kitchen
+2025-11-10 06:24:47 INFO  [LogService] Appliance added: Microwave
+2025-11-10 06:24:47 INFO  [LogService] Appliance added: Toaster
+2025-11-10 06:24:47 INFO  [LogService] Appliance added: Cooker
+2025-11-10 06:24:47 INFO  [LogService] Appliances sorted by power.
+2025-11-10 06:24:47 INFO  [LogService] Category added: Kitchen
+2025-11-10 06:24:47 INFO  [LogService] Appliance added: Toaster
+2025-11-10 06:24:47 INFO  [LogService] Appliance plugged in: Toaster
+2025-11-10 06:24:47 INFO  [LogService] Category added: Kitchen
+2025-11-10 06:24:47 INFO  [LogService] Appliance added: Toaster
+2025-11-10 06:24:47 INFO  [LogService] Appliance unplugged: Toaster
+2025-11-10 06:24:47 INFO  [LogService] Category added: Kitchen
+2025-11-10 06:24:47 INFO  [LogService] Appliance added: Toaster
+2025-11-10 06:24:47 INFO  [LogService] Category removed: Kitchen
+2025-11-10 06:24:47 INFO  [LogService] Category added: Kitchen
+2025-11-10 06:24:47 INFO  [LogService] Appliance added: Toaster
+2025-11-10 06:24:47 INFO  [LogService] Appliance removed: Toaster
+2025-11-10 06:30:08 INFO  [LogService] Category added: Kitchen
+2025-11-10 06:30:08 INFO  [LogService] Appliance added: Microwave
+2025-11-10 06:30:08 INFO  [LogService] Appliance added: Toaster
+2025-11-10 06:30:08 INFO  [LogService] Appliance added: Cooker
+2025-11-10 06:30:08 INFO  [LogService] Category added: Kitchen
+2025-11-10 06:30:08 INFO  [LogService] Appliance added: Microwave
+2025-11-10 06:30:08 INFO  [LogService] Appliance added: Toaster
+2025-11-10 06:30:08 INFO  [LogService] Appliance added: Cooker
+2025-11-10 06:30:08 INFO  [LogService] Found appliance in range 100-200 W: Toaster
+2025-11-10 06:30:08 INFO  [LogService] Category added: Kitchen
+2025-11-10 06:30:08 INFO  [LogService] Appliance added: Microwave
+2025-11-10 06:30:08 INFO  [LogService] Appliance added: Toaster
+2025-11-10 06:30:08 INFO  [LogService] Appliance added: Cooker
+2025-11-10 06:30:08 ERROR [LogService] Error: Power values must be integers. 
+java.lang.NumberFormatException: For input string: "low"
+	at java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:67) ~[?:?]
+	at java.base/java.lang.Integer.parseInt(Integer.java:565) ~[?:?]
+	at java.base/java.lang.Integer.parseInt(Integer.java:662) ~[?:?]
+	at commands.FindCommand.execute(FindCommand.java:58) [classes/:?]
+	at commands.FindCommandTest.lambda$testFindWithInvalidRangeArguments$0(FindCommandTest.java:52) [test-classes/:?]
+	at org.junit.jupiter.api.AssertDoesNotThrow.assertDoesNotThrow(AssertDoesNotThrow.java:49) [junit-jupiter-api-5.10.2.jar:5.10.2]
+	at org.junit.jupiter.api.AssertDoesNotThrow.assertDoesNotThrow(AssertDoesNotThrow.java:40) [junit-jupiter-api-5.10.2.jar:5.10.2]
+	at org.junit.jupiter.api.Assertions.assertDoesNotThrow(Assertions.java:3187) [junit-jupiter-api-5.10.2.jar:5.10.2]
+	at commands.FindCommandTest.testFindWithInvalidRangeArguments(FindCommandTest.java:52) [test-classes/:?]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565) ~[?:?]
+	at org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:728) [junit-platform-commons-1.10.2.jar:1.10.2]
+	at org.junit.jupiter.engine.execution.MethodInvocation.proceed(MethodInvocation.java:60) [junit-jupiter-engine-5.10.2.jar:5.10.2]
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$ValidatingInvocation.proceed(InvocationInterceptorChain.java:131) [junit-jupiter-engine-5.10.2.jar:5.10.2]
+	at org.junit.jupiter.engine.extension.TimeoutExtension.intercept(TimeoutExtension.java:156) [junit-jupiter-engine-5.10.2.jar:5.10.2]
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestableMethod(TimeoutExtension.java:147) [junit-jupiter-engine-5.10.2.jar:5.10.2]
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestMethod(TimeoutExtension.java:86) [junit-jupiter-engine-5.10.2.jar:5.10.2]
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker$ReflectiveInterceptorCall.lambda$ofVoidMethod$0(InterceptingExecutableInvoker.java:103) [junit-jupiter-engine-5.10.2.jar:5.10.2]
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.lambda$invoke$0(InterceptingExecutableInvoker.java:93) [junit-jupiter-engine-5.10.2.jar:5.10.2]
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$InterceptedInvocation.proceed(InvocationInterceptorChain.java:106) [junit-jupiter-engine-5.10.2.jar:5.10.2]
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.proceed(InvocationInterceptorChain.java:64) [junit-jupiter-engine-5.10.2.jar:5.10.2]
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.chainAndInvoke(InvocationInterceptorChain.java:45) [junit-jupiter-engine-5.10.2.jar:5.10.2]
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.invoke(InvocationInterceptorChain.java:37) [junit-jupiter-engine-5.10.2.jar:5.10.2]
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.invoke(InterceptingExecutableInvoker.java:92) [junit-jupiter-engine-5.10.2.jar:5.10.2]
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.invoke(InterceptingExecutableInvoker.java:86) [junit-jupiter-engine-5.10.2.jar:5.10.2]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeTestMethod$7(TestMethodTestDescriptor.java:218) [junit-jupiter-engine-5.10.2.jar:5.10.2]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) [junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.invokeTestMethod(TestMethodTestDescriptor.java:214) [junit-jupiter-engine-5.10.2.jar:5.10.2]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:139) [junit-jupiter-engine-5.10.2.jar:5.10.2]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:69) [junit-jupiter-engine-5.10.2.jar:5.10.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:151) [junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) [junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141) [junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137) [junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139) [junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) [junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138) [junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95) [junit-platform-engine-1.10.2.jar:1.10.2]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604) [?:?]
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41) [junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155) [junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) [junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141) [junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137) [junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139) [junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) [junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138) [junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95) [junit-platform-engine-1.10.2.jar:1.10.2]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604) [?:?]
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41) [junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155) [junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) [junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141) [junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137) [junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139) [junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) [junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138) [junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95) [junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:35) [junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57) [junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:54) [junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:198) [junit-platform-launcher-1.10.2.jar:1.10.2]
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:169) [junit-platform-launcher-1.10.2.jar:1.10.2]
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:93) [junit-platform-launcher-1.10.2.jar:1.10.2]
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.lambda$execute$0(EngineExecutionOrchestrator.java:58) [junit-platform-launcher-1.10.2.jar:1.10.2]
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.withInterceptedStreams(EngineExecutionOrchestrator.java:141) [junit-platform-launcher-1.10.2.jar:1.10.2]
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:57) [junit-platform-launcher-1.10.2.jar:1.10.2]
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:103) [junit-platform-launcher-1.10.2.jar:1.10.2]
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:85) [junit-platform-launcher-1.10.2.jar:1.10.2]
+	at org.junit.platform.launcher.core.DelegatingLauncher.execute(DelegatingLauncher.java:47) [junit-platform-launcher-1.10.2.jar:1.10.2]
+	at org.junit.platform.launcher.core.SessionPerRequestLauncher.execute(SessionPerRequestLauncher.java:63) [junit-platform-launcher-1.10.2.jar:1.10.2]
+	at com.intellij.junit5.JUnit5IdeaTestRunner.startRunnerWithArgs(JUnit5IdeaTestRunner.java:66) [junit5-rt.jar:?]
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater$1.execute(IdeaTestRunner.java:38) [junit-rt.jar:?]
+	at com.intellij.rt.execution.junit.TestsRepeater.repeat(TestsRepeater.java:11) [idea_rt.jar:?]
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:35) [junit-rt.jar:?]
+	at com.intellij.rt.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:231) [junit-rt.jar:?]
+	at com.intellij.rt.junit.JUnitStarter.main(JUnitStarter.java:55) [junit-rt.jar:?]
+2025-11-10 06:30:08 INFO  [LogService] Category added: Kitchen
+2025-11-10 06:30:08 INFO  [LogService] Appliance added: Microwave
+2025-11-10 06:30:08 INFO  [LogService] Appliance added: Toaster
+2025-11-10 06:30:08 INFO  [LogService] Appliance added: Cooker
+2025-11-10 06:30:08 INFO  [LogService] Category added: Kitchen
+2025-11-10 06:30:08 INFO  [LogService] Appliance added: Microwave
+2025-11-10 06:30:08 INFO  [LogService] Appliance added: Toaster
+2025-11-10 06:30:08 INFO  [LogService] Appliance added: Cooker
+2025-11-10 06:30:08 INFO  [LogService] Category added: Kitchen
+2025-11-10 06:30:08 INFO  [LogService] Appliance added: Toaster
+2025-11-10 06:30:08 INFO  [LogService] Category added: Kitchen
+2025-11-10 06:30:08 WARN  [LogService] Failed to add appliance, category missing: NonExistent
+2025-11-10 06:30:08 INFO  [LogService] Category added: Kitchen
+2025-11-10 06:30:08 INFO  [LogService] Category added: Kitchen
+2025-11-10 06:30:08 INFO  [LogService] Appliance added: Microwave
+2025-11-10 06:30:08 INFO  [LogService] Appliance added: Toaster
+2025-11-10 06:30:08 INFO  [LogService] Appliance added: Cooker
+2025-11-10 06:30:08 INFO  [LogService] Category added: Kitchen
+2025-11-10 06:30:08 INFO  [LogService] Category added: LivingRoom
+2025-11-10 06:30:08 INFO  [LogService] Appliance added: Toaster
+2025-11-10 06:30:08 INFO  [LogService] Appliance updated: Toaster         | LivingRoom     |   120,0 W | OFF |
+2025-11-10 06:30:08 INFO  [LogService] Category added: Kitchen
+2025-11-10 06:30:08 INFO  [LogService] Category added: LivingRoom
+2025-11-10 06:30:08 INFO  [LogService] Appliance added: Toaster
+2025-11-10 06:30:08 INFO  [LogService] Appliance updated: newToaster      | Kitchen        |   120,0 W | OFF |
+2025-11-10 06:30:08 INFO  [LogService] Category added: Kitchen
+2025-11-10 06:30:08 INFO  [LogService] Category added: LivingRoom
+2025-11-10 06:30:08 INFO  [LogService] Appliance added: Toaster
+2025-11-10 06:30:08 INFO  [LogService] Category renamed from Kitchen to newKitchen
+2025-11-10 06:30:08 INFO  [LogService] Category added: Kitchen
+2025-11-10 06:30:08 INFO  [LogService] Category added: LivingRoom
+2025-11-10 06:30:08 INFO  [LogService] Appliance added: Toaster
+2025-11-10 06:30:08 INFO  [LogService] Appliance updated: Toaster         | Kitchen        |   100,0 W | OFF |
+2025-11-10 06:30:08 INFO  [LogService] Category added: Kitchen
+2025-11-10 06:30:08 INFO  [LogService] Appliance added: Microwave
+2025-11-10 06:30:08 INFO  [LogService] Appliance added: Toaster
+2025-11-10 06:30:08 INFO  [LogService] Appliance added: Cooker
+2025-11-10 06:30:08 INFO  [LogService] Appliances sorted by power.
+2025-11-10 06:30:08 INFO  [LogService] Category added: Kitchen
+2025-11-10 06:30:08 INFO  [LogService] Appliance added: Toaster
+2025-11-10 06:30:08 INFO  [LogService] Appliance plugged in: Toaster
+2025-11-10 06:30:08 INFO  [LogService] Category added: Kitchen
+2025-11-10 06:30:08 INFO  [LogService] Appliance added: Toaster
+2025-11-10 06:30:08 INFO  [LogService] Appliance unplugged: Toaster
+2025-11-10 06:30:08 INFO  [LogService] Category added: Kitchen
+2025-11-10 06:30:08 INFO  [LogService] Appliance added: Toaster
+2025-11-10 06:30:08 INFO  [LogService] Category removed: Kitchen
+2025-11-10 06:30:08 INFO  [LogService] Category added: Kitchen
+2025-11-10 06:30:08 INFO  [LogService] Appliance added: Toaster
+2025-11-10 06:30:08 INFO  [LogService] Appliance removed: Toaster
+2025-11-10 06:30:56 INFO  [LogService] Category added: Kitchen
+2025-11-10 06:30:56 INFO  [LogService] Appliance added: Microwave
+2025-11-10 06:30:56 INFO  [LogService] Appliance added: Toaster
+2025-11-10 06:30:56 INFO  [LogService] Appliance added: Cooker
+2025-11-10 06:30:56 INFO  [LogService] Category added: Kitchen
+2025-11-10 06:30:56 INFO  [LogService] Appliance added: Microwave
+2025-11-10 06:30:56 INFO  [LogService] Appliance added: Toaster
+2025-11-10 06:30:56 INFO  [LogService] Appliance added: Cooker
+2025-11-10 06:30:56 INFO  [LogService] Found appliance in range 100-200 W: Toaster
+2025-11-10 06:30:56 INFO  [LogService] Category added: Kitchen
+2025-11-10 06:30:56 INFO  [LogService] Appliance added: Microwave
+2025-11-10 06:30:56 INFO  [LogService] Appliance added: Toaster
+2025-11-10 06:30:56 INFO  [LogService] Appliance added: Cooker
+2025-11-10 06:30:56 ERROR [LogService] Error: Power values must be integers. 
+java.lang.NumberFormatException: For input string: "low"
+	at java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:67) ~[?:?]
+	at java.base/java.lang.Integer.parseInt(Integer.java:565) ~[?:?]
+	at java.base/java.lang.Integer.parseInt(Integer.java:662) ~[?:?]
+	at commands.FindCommand.execute(FindCommand.java:58) [classes/:?]
+	at commands.FindCommandTest.lambda$testFindWithInvalidRangeArguments$0(FindCommandTest.java:52) [test-classes/:?]
+	at org.junit.jupiter.api.AssertDoesNotThrow.assertDoesNotThrow(AssertDoesNotThrow.java:49) [junit-jupiter-api-5.10.2.jar:5.10.2]
+	at org.junit.jupiter.api.AssertDoesNotThrow.assertDoesNotThrow(AssertDoesNotThrow.java:40) [junit-jupiter-api-5.10.2.jar:5.10.2]
+	at org.junit.jupiter.api.Assertions.assertDoesNotThrow(Assertions.java:3187) [junit-jupiter-api-5.10.2.jar:5.10.2]
+	at commands.FindCommandTest.testFindWithInvalidRangeArguments(FindCommandTest.java:52) [test-classes/:?]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565) ~[?:?]
+	at org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:728) [junit-platform-commons-1.10.2.jar:1.10.2]
+	at org.junit.jupiter.engine.execution.MethodInvocation.proceed(MethodInvocation.java:60) [junit-jupiter-engine-5.10.2.jar:5.10.2]
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$ValidatingInvocation.proceed(InvocationInterceptorChain.java:131) [junit-jupiter-engine-5.10.2.jar:5.10.2]
+	at org.junit.jupiter.engine.extension.TimeoutExtension.intercept(TimeoutExtension.java:156) [junit-jupiter-engine-5.10.2.jar:5.10.2]
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestableMethod(TimeoutExtension.java:147) [junit-jupiter-engine-5.10.2.jar:5.10.2]
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestMethod(TimeoutExtension.java:86) [junit-jupiter-engine-5.10.2.jar:5.10.2]
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker$ReflectiveInterceptorCall.lambda$ofVoidMethod$0(InterceptingExecutableInvoker.java:103) [junit-jupiter-engine-5.10.2.jar:5.10.2]
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.lambda$invoke$0(InterceptingExecutableInvoker.java:93) [junit-jupiter-engine-5.10.2.jar:5.10.2]
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$InterceptedInvocation.proceed(InvocationInterceptorChain.java:106) [junit-jupiter-engine-5.10.2.jar:5.10.2]
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.proceed(InvocationInterceptorChain.java:64) [junit-jupiter-engine-5.10.2.jar:5.10.2]
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.chainAndInvoke(InvocationInterceptorChain.java:45) [junit-jupiter-engine-5.10.2.jar:5.10.2]
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.invoke(InvocationInterceptorChain.java:37) [junit-jupiter-engine-5.10.2.jar:5.10.2]
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.invoke(InterceptingExecutableInvoker.java:92) [junit-jupiter-engine-5.10.2.jar:5.10.2]
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.invoke(InterceptingExecutableInvoker.java:86) [junit-jupiter-engine-5.10.2.jar:5.10.2]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeTestMethod$7(TestMethodTestDescriptor.java:218) [junit-jupiter-engine-5.10.2.jar:5.10.2]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) [junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.invokeTestMethod(TestMethodTestDescriptor.java:214) [junit-jupiter-engine-5.10.2.jar:5.10.2]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:139) [junit-jupiter-engine-5.10.2.jar:5.10.2]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:69) [junit-jupiter-engine-5.10.2.jar:5.10.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:151) [junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) [junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141) [junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137) [junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139) [junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) [junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138) [junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95) [junit-platform-engine-1.10.2.jar:1.10.2]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604) [?:?]
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41) [junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155) [junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) [junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141) [junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137) [junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139) [junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) [junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138) [junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95) [junit-platform-engine-1.10.2.jar:1.10.2]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604) [?:?]
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41) [junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155) [junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) [junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141) [junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137) [junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139) [junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) [junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138) [junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95) [junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:35) [junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57) [junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:54) [junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:198) [junit-platform-launcher-1.10.2.jar:1.10.2]
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:169) [junit-platform-launcher-1.10.2.jar:1.10.2]
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:93) [junit-platform-launcher-1.10.2.jar:1.10.2]
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.lambda$execute$0(EngineExecutionOrchestrator.java:58) [junit-platform-launcher-1.10.2.jar:1.10.2]
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.withInterceptedStreams(EngineExecutionOrchestrator.java:141) [junit-platform-launcher-1.10.2.jar:1.10.2]
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:57) [junit-platform-launcher-1.10.2.jar:1.10.2]
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:103) [junit-platform-launcher-1.10.2.jar:1.10.2]
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:85) [junit-platform-launcher-1.10.2.jar:1.10.2]
+	at org.junit.platform.launcher.core.DelegatingLauncher.execute(DelegatingLauncher.java:47) [junit-platform-launcher-1.10.2.jar:1.10.2]
+	at org.junit.platform.launcher.core.SessionPerRequestLauncher.execute(SessionPerRequestLauncher.java:63) [junit-platform-launcher-1.10.2.jar:1.10.2]
+	at com.intellij.junit5.JUnit5IdeaTestRunner.startRunnerWithArgs(JUnit5IdeaTestRunner.java:66) [junit5-rt.jar:?]
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater$1.execute(IdeaTestRunner.java:38) [junit-rt.jar:?]
+	at com.intellij.rt.execution.junit.TestsRepeater.repeat(TestsRepeater.java:11) [idea_rt.jar:?]
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:35) [junit-rt.jar:?]
+	at com.intellij.rt.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:231) [junit-rt.jar:?]
+	at com.intellij.rt.junit.JUnitStarter.main(JUnitStarter.java:55) [junit-rt.jar:?]
+2025-11-10 06:30:56 INFO  [LogService] Category added: Kitchen
+2025-11-10 06:30:56 INFO  [LogService] Appliance added: Microwave
+2025-11-10 06:30:56 INFO  [LogService] Appliance added: Toaster
+2025-11-10 06:30:56 INFO  [LogService] Appliance added: Cooker
+2025-11-10 06:30:56 INFO  [LogService] Category added: Kitchen
+2025-11-10 06:30:56 INFO  [LogService] Appliance added: Microwave
+2025-11-10 06:30:56 INFO  [LogService] Appliance added: Toaster
+2025-11-10 06:30:56 INFO  [LogService] Appliance added: Cooker
+2025-11-10 06:30:56 INFO  [LogService] Category added: Kitchen
+2025-11-10 06:30:56 INFO  [LogService] Category added: Kitchen
+2025-11-10 06:30:56 INFO  [LogService] Appliance added: Toaster
+2025-11-10 06:30:56 INFO  [LogService] Category added: Kitchen
+2025-11-10 06:30:56 INFO  [LogService] Appliance added: Microwave
+2025-11-10 06:30:56 INFO  [LogService] Appliance added: Toaster
+2025-11-10 06:30:56 INFO  [LogService] Appliance added: Cooker
+2025-11-10 06:30:56 INFO  [LogService] Category added: Kitchen
+2025-11-10 06:30:56 INFO  [LogService] Category added: LivingRoom
+2025-11-10 06:30:56 INFO  [LogService] Appliance added: Toaster
+2025-11-10 06:30:56 INFO  [LogService] Appliance updated: Toaster         | LivingRoom     |   120,0 W | OFF |
+2025-11-10 06:30:56 INFO  [LogService] Category added: Kitchen
+2025-11-10 06:30:56 INFO  [LogService] Category added: LivingRoom
+2025-11-10 06:30:56 INFO  [LogService] Appliance added: Toaster
+2025-11-10 06:30:56 INFO  [LogService] Appliance updated: newToaster      | Kitchen        |   120,0 W | OFF |
+2025-11-10 06:30:56 INFO  [LogService] Category added: Kitchen
+2025-11-10 06:30:56 INFO  [LogService] Category added: LivingRoom
+2025-11-10 06:30:56 INFO  [LogService] Appliance added: Toaster
+2025-11-10 06:30:56 INFO  [LogService] Category renamed from Kitchen to newKitchen
+2025-11-10 06:30:56 INFO  [LogService] Category added: Kitchen
+2025-11-10 06:30:56 INFO  [LogService] Category added: LivingRoom
+2025-11-10 06:30:56 INFO  [LogService] Appliance added: Toaster
+2025-11-10 06:30:56 INFO  [LogService] Appliance updated: Toaster         | Kitchen        |   100,0 W | OFF |
+2025-11-10 06:30:56 INFO  [LogService] Category added: Kitchen
+2025-11-10 06:30:56 INFO  [LogService] Appliance added: Microwave
+2025-11-10 06:30:56 INFO  [LogService] Appliance added: Toaster
+2025-11-10 06:30:56 INFO  [LogService] Appliance added: Cooker
+2025-11-10 06:30:56 INFO  [LogService] Appliances sorted by power.
+2025-11-10 06:30:56 INFO  [LogService] Category added: Kitchen
+2025-11-10 06:30:56 INFO  [LogService] Appliance added: Toaster
+2025-11-10 06:30:56 INFO  [LogService] Appliance plugged in: Toaster
+2025-11-10 06:30:56 INFO  [LogService] Category added: Kitchen
+2025-11-10 06:30:56 INFO  [LogService] Appliance added: Toaster
+2025-11-10 06:30:56 INFO  [LogService] Appliance unplugged: Toaster
+2025-11-10 06:30:56 INFO  [LogService] Category added: Kitchen
+2025-11-10 06:30:56 INFO  [LogService] Appliance added: Toaster
+2025-11-10 06:30:56 INFO  [LogService] Category removed: Kitchen
+2025-11-10 06:30:56 INFO  [LogService] Category added: Kitchen
+2025-11-10 06:30:56 INFO  [LogService] Appliance added: Toaster
+2025-11-10 06:30:56 INFO  [LogService] Appliance removed: Toaster
+2025-11-10 06:31:45 INFO  [LogService] Category added: Kitchen
+2025-11-10 06:31:45 INFO  [LogService] Appliance added: Microwave
+2025-11-10 06:31:45 INFO  [LogService] Appliance added: Toaster
+2025-11-10 06:31:45 INFO  [LogService] Appliance added: Cooker
+2025-11-10 06:31:45 INFO  [LogService] Found appliance in range 100-200 W: Toaster
+2025-11-10 06:31:45 INFO  [LogService] Category added: Kitchen
+2025-11-10 06:31:45 INFO  [LogService] Appliance added: Microwave
+2025-11-10 06:31:45 INFO  [LogService] Appliance added: Toaster
+2025-11-10 06:31:45 INFO  [LogService] Appliance added: Cooker
+2025-11-10 06:31:45 INFO  [LogService] Category added: Kitchen
+2025-11-10 06:31:45 INFO  [LogService] Category added: Kitchen
+2025-11-10 06:31:45 INFO  [LogService] Appliance added: Toaster
+2025-11-10 06:31:45 INFO  [LogService] Category added: Kitchen
+2025-11-10 06:31:45 INFO  [LogService] Appliance added: Microwave
+2025-11-10 06:31:45 INFO  [LogService] Appliance added: Toaster
+2025-11-10 06:31:45 INFO  [LogService] Appliance added: Cooker
+2025-11-10 06:31:45 INFO  [LogService] Category added: Kitchen
+2025-11-10 06:31:45 INFO  [LogService] Category added: LivingRoom
+2025-11-10 06:31:45 INFO  [LogService] Appliance added: Toaster
+2025-11-10 06:31:45 INFO  [LogService] Appliance updated: Toaster         | LivingRoom     |   120,0 W | OFF |
+2025-11-10 06:31:45 INFO  [LogService] Category added: Kitchen
+2025-11-10 06:31:45 INFO  [LogService] Category added: LivingRoom
+2025-11-10 06:31:45 INFO  [LogService] Appliance added: Toaster
+2025-11-10 06:31:45 INFO  [LogService] Appliance updated: newToaster      | Kitchen        |   120,0 W | OFF |
+2025-11-10 06:31:45 INFO  [LogService] Category added: Kitchen
+2025-11-10 06:31:45 INFO  [LogService] Category added: LivingRoom
+2025-11-10 06:31:45 INFO  [LogService] Appliance added: Toaster
+2025-11-10 06:31:45 INFO  [LogService] Category renamed from Kitchen to newKitchen
+2025-11-10 06:31:45 INFO  [LogService] Category added: Kitchen
+2025-11-10 06:31:45 INFO  [LogService] Category added: LivingRoom
+2025-11-10 06:31:45 INFO  [LogService] Appliance added: Toaster
+2025-11-10 06:31:45 INFO  [LogService] Appliance updated: Toaster         | Kitchen        |   100,0 W | OFF |
+2025-11-10 06:31:45 INFO  [LogService] Category added: Kitchen
+2025-11-10 06:31:45 INFO  [LogService] Appliance added: Microwave
+2025-11-10 06:31:45 INFO  [LogService] Appliance added: Toaster
+2025-11-10 06:31:45 INFO  [LogService] Appliance added: Cooker
+2025-11-10 06:31:45 INFO  [LogService] Appliances sorted by power.
+2025-11-10 06:31:45 INFO  [LogService] Category added: Kitchen
+2025-11-10 06:31:45 INFO  [LogService] Appliance added: Toaster
+2025-11-10 06:31:45 INFO  [LogService] Appliance plugged in: Toaster
+2025-11-10 06:31:46 INFO  [LogService] Category added: Kitchen
+2025-11-10 06:31:46 INFO  [LogService] Appliance added: Toaster
+2025-11-10 06:31:46 INFO  [LogService] Appliance unplugged: Toaster
+2025-11-10 06:31:46 INFO  [LogService] Category added: Kitchen
+2025-11-10 06:31:46 INFO  [LogService] Appliance added: Toaster
+2025-11-10 06:31:46 INFO  [LogService] Category removed: Kitchen
+2025-11-10 06:31:46 INFO  [LogService] Category added: Kitchen
+2025-11-10 06:31:46 INFO  [LogService] Appliance added: Toaster
+2025-11-10 06:31:46 INFO  [LogService] Appliance removed: Toaster

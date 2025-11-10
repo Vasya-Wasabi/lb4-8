@@ -1,0 +1,304 @@
+{
+  "Office": [
+    {
+      "name": "Computer",
+      "category": "Office",
+      "powerW": 350.0,
+      "plugged": true
+    },
+    {
+      "name": "Monitor",
+      "category": "Office",
+      "powerW": 90.0,
+      "plugged": true
+    },
+    {
+      "name": "Printer",
+      "category": "Office",
+      "powerW": 150.0,
+      "plugged": false
+    },
+    {
+      "name": "Router",
+      "category": "Office",
+      "powerW": 25.0,
+      "plugged": true
+    },
+    {
+      "name": "DeskLamp",
+      "category": "Office",
+      "powerW": 60.0,
+      "plugged": true
+    },
+    {
+      "name": "Dickk",
+      "category": "Office",
+      "powerW": 41234.0,
+      "plugged": false
+    }
+  ],
+  "Garden": [
+    {
+      "name": "LawnMower",
+      "category": "Garden",
+      "powerW": 1800.0,
+      "plugged": false
+    },
+    {
+      "name": "SprinklerPump",
+      "category": "Garden",
+      "powerW": 500.0,
+      "plugged": true
+    },
+    {
+      "name": "GardenLight",
+      "category": "Garden",
+      "powerW": 40.0,
+      "plugged": true
+    },
+    {
+      "name": "Trimmer",
+      "category": "Garden",
+      "powerW": 600.0,
+      "plugged": false
+    }
+  ],
+  "Garage": [
+    {
+      "name": "Drill",
+      "category": "Garage",
+      "powerW": 800.0,
+      "plugged": false
+    },
+    {
+      "name": "Compressor",
+      "category": "Garage",
+      "powerW": 1000.0,
+      "plugged": false
+    },
+    {
+      "name": "BatteryCharger",
+      "category": "Garage",
+      "powerW": 300.0,
+      "plugged": true
+    },
+    {
+      "name": "Vacuum",
+      "category": "Garage",
+      "powerW": 1200.0,
+      "plugged": true
+    },
+    {
+      "name": "Light",
+      "category": "Garage",
+      "powerW": 50.0,
+      "plugged": true
+    }
+  ],
+  "Kitchen": [
+    {
+      "name": "Fridge",
+      "category": "Kitchen",
+      "powerW": 150.0,
+      "plugged": true
+    },
+    {
+      "name": "Microwave",
+      "category": "Kitchen",
+      "powerW": 1200.0,
+      "plugged": false
+    },
+    {
+      "name": "Toaster",
+      "category": "Kitchen",
+      "powerW": 800.0,
+      "plugged": true
+    },
+    {
+      "name": "Dishwasher",
+      "category": "Kitchen",
+      "powerW": 1800.0,
+      "plugged": false
+    },
+    {
+      "name": "Kettle",
+      "category": "Kitchen",
+      "powerW": 2200.0,
+      "plugged": true
+    },
+    {
+      "name": "CoffeeMaker",
+      "category": "Kitchen",
+      "powerW": 950.0,
+      "plugged": false
+    }
+  ],
+  "Bathroom": [
+    {
+      "name": "HairDryer",
+      "category": "Bathroom",
+      "powerW": 1600.0,
+      "plugged": false
+    },
+    {
+      "name": "ElectricShaver",
+      "category": "Bathroom",
+      "powerW": 20.0,
+      "plugged": true
+    },
+    {
+      "name": "Heater",
+      "category": "Bathroom",
+      "powerW": 1200.0,
+      "plugged": true
+    },
+    {
+      "name": "MirrorLight",
+      "category": "Bathroom",
+      "powerW": 40.0,
+      "plugged": false
+    }
+  ],
+  "Basement": [
+    {
+      "name": "Pump",
+      "category": "Basement",
+      "powerW": 900.0,
+      "plugged": true
+    },
+    {
+      "name": "Dehumidifier",
+      "category": "Basement",
+      "powerW": 450.0,
+      "plugged": false
+    },
+    {
+      "name": "Light",
+      "category": "Basement",
+      "powerW": 60.0,
+      "plugged": true
+    },
+    {
+      "name": "Fan",
+      "category": "Basement",
+      "powerW": 120.0,
+      "plugged": false
+    }
+  ],
+  "Bedroom": [
+    {
+      "name": "BedsideLamp",
+      "category": "Bedroom",
+      "powerW": 40.0,
+      "plugged": true
+    },
+    {
+      "name": "Fan",
+      "category": "Bedroom",
+      "powerW": 120.0,
+      "plugged": false
+    },
+    {
+      "name": "Laptop",
+      "category": "Bedroom",
+      "powerW": 100.0,
+      "plugged": true
+    },
+    {
+      "name": "AirConditioner",
+      "category": "Bedroom",
+      "powerW": 900.0,
+      "plugged": false
+    },
+    {
+      "name": "PhoneCharger",
+      "category": "Bedroom",
+      "powerW": 15.0,
+      "plugged": true
+    }
+  ],
+  "GarageWorkshop": [
+    {
+      "name": "Saw",
+      "category": "GarageWorkshop",
+      "powerW": 1100.0,
+      "plugged": false
+    },
+    {
+      "name": "Grinder",
+      "category": "GarageWorkshop",
+      "powerW": 700.0,
+      "plugged": true
+    },
+    {
+      "name": "Welder",
+      "category": "GarageWorkshop",
+      "powerW": 1500.0,
+      "plugged": false
+    },
+    {
+      "name": "Light",
+      "category": "GarageWorkshop",
+      "powerW": 60.0,
+      "plugged": true
+    }
+  ],
+  "LivingRoom": [
+    {
+      "name": "TV",
+      "category": "LivingRoom",
+      "powerW": 200.0,
+      "plugged": true
+    },
+    {
+      "name": "GameConsole",
+      "category": "LivingRoom",
+      "powerW": 250.0,
+      "plugged": true
+    },
+    {
+      "name": "Lamp",
+      "category": "LivingRoom",
+      "powerW": 60.0,
+      "plugged": false
+    },
+    {
+      "name": "SoundSystem",
+      "category": "LivingRoom",
+      "powerW": 400.0,
+      "plugged": true
+    },
+    {
+      "name": "Heater",
+      "category": "LivingRoom",
+      "powerW": 1500.0,
+      "plugged": false
+    },
+    {
+      "name": "AirPurifier",
+      "category": "LivingRoom",
+      "powerW": 80.0,
+      "plugged": true
+    }
+  ],
+  "Hallway": [
+    {
+      "name": "CeilingLight",
+      "category": "Hallway",
+      "powerW": 80.0,
+      "plugged": true
+    },
+    {
+      "name": "Heater",
+      "category": "Hallway",
+      "powerW": 1200.0,
+      "plugged": false
+    },
+    {
+      "name": "MirrorLight",
+      "category": "Hallway",
+      "powerW": 40.0,
+      "plugged": true
+    }
+  ]
+}
